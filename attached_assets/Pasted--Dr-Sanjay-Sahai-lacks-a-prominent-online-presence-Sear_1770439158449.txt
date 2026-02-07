@@ -1,0 +1,27 @@
+**Dr. Sanjay Sahai lacks a prominent online presence.** Searches show no verified clinic site, only minor listings; he's likely ex-HOD Kailash Hospital Noida dentistry from Maulana Azad Medical College (MAMC) Delhi—credentials to highlight strongly. [youtube](https://www.youtube.com/watch?v=65ALoG4S4mU)
+
+Top US/India dentist sites (e.g., Dr. Anupama Chaduvula India, Dr. Michael Apa US) emphasize trust-building: hero sections with smiling patients/credentials, clear services/CTAs for bookings, patient testimonials, before-after galleries, local SEO, mobile-first designs with warm blues/whites. [templatemonster](https://www.templatemonster.com/category/free-dentistry-website-templates/)
+
+## Optimized AI Prompt for ZipWP/WordPress.com
+```
+Create a professional, responsive dental clinic website for Dr. Sanjay Sahai, Ex-HOD Department of Dentistry at Kailash Hospital Noida, alumnus Maulana Azad Medical College (MAMC) Delhi. Modern, trustworthy design using calming blue/white palette, high-quality dental imagery.
+
+PAGES & STRUCTURE:
+- HOME: Hero banner "Dr. Sanjay Sahai - Noida’s Trusted Dentist | Ex-HOD Kailash Hospital" with smiling patient + "Book Appointment" CTA. Sections: Credentials (MAMC + HOD), Our Expertise (4 services icons), Patient Reviews carousel, Quick Contact form, Noida map.
+
+- ABOUT: Professional photo/bio: "30+ years experience, former Head of Dentistry Kailash Hospital, MAMC graduate." Timeline of career, philosophy "Precision care through experience." Patient-first mission.
+
+- SERVICES: Grid with images/pricing estimates: Root Canal Therapy, Dental Implants, Teeth Whitening, Orthodontics/Braces, Cosmetic Dentistry, Preventive Care, Emergency Dental. Each card: description + "Learn More."
+
+- GALLERY: Before-after slider (generate AI dental transformations), clinic interior/exterior, equipment.
+
+- BLOG: 3 SEO-optimized posts: "Best Dentist Noida Guide," "Root Canal Myths," "Smile Makeover Costs Noida."
+
+- CONTACT/BOOK: Practo integration button, WhatsApp (+91-XXXXXXXXXX), Google Maps (Kailash Hospital/Noida location), online form (name/email/phone/preferred date), hours/emergency notice.
+
+SEO: Title "Dr. Sanjay Sahai | Best Dentist Noida | Ex-HOD Kailash Hospital." Meta: Local keywords "dentist Noida, root canal Noida, dental implants Noida." Schema for dentist.
+
+Features: Mobile-optimized, fast-loading, sticky header CTA, testimonial section, FAQ accordion (insurance? emergencies?), SSL-ready, Google Analytics code.
+```
+
+Paste into ZipWP for 60-second demo—exports perfectly to your Hostinger WordPress later. [zipwp](https://zipwp.com)
