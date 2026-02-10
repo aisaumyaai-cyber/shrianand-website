@@ -22,7 +22,6 @@ export function Navbar() {
     { name: "Services", href: "/services" },
     { name: "Gallery", href: "/gallery" },
     { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -40,12 +39,8 @@ export function Navbar() {
               S
             </div>
             <div className="flex flex-col">
-              <span className="font-heading font-bold text-xl leading-none text-foreground">
-                Dr. Sanjay Sahai
-              </span>
-              <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">
-                Ex-HOD Kailash Hospital
-              </span>
+              <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
+              <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">Dr Sanajai Sahai</span>
             </div>
           </a>
         </Link>
