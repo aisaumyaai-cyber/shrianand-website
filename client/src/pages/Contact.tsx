@@ -63,8 +63,8 @@ export default function Contact() {
                 <div>
                   <h3 className="font-bold text-lg text-slate-900 mb-1">Clinic Location</h3>
                   <p className="text-slate-600">
-                    Plot No. XX, Sector 27,<br />
-                    Opposite Kailash Hospital,<br />
+                    B-95, near Mount Litera Noida | Mount Litera Zee School,<br />
+                    B Block, Pocket B, Sector 27,<br />
                     Noida, Uttar Pradesh 201301
                   </p>
                 </div>
@@ -93,11 +93,17 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="mt-10 h-64 bg-slate-100 rounded-xl overflow-hidden relative">
-               <div className="absolute inset-0 flex items-center justify-center text-slate-400">
-                  Google Map Embed Would Go Here
-               </div>
+            <div className="mt-10 h-80 bg-slate-100 rounded-xl overflow-hidden relative shadow-inner border border-slate-200">
+               <iframe 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.4862215273183!2d77.3308333!3d28.5851667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce50700000001%3A0x67c296568c07e264!2sMount%20Litera%20Zee%20School%2C%20Noida!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                 width="100%" 
+                 height="100%" 
+                 style={{ border: 0 }} 
+                 allowFullScreen={true} 
+                 loading="lazy" 
+                 referrerPolicy="no-referrer-when-downgrade"
+                 title="Clinic Location"
+               ></iframe>
             </div>
           </div>
 
