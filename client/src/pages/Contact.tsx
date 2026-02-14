@@ -95,7 +95,7 @@ export default function Contact() {
 
             <div className="mt-10 h-80 bg-slate-100 rounded-xl overflow-hidden relative shadow-inner border border-slate-200">
                <iframe 
-                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.4862215273183!2d77.3308333!3d28.5851667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce50700000001%3A0x67c296568c07e264!2sMount%20Litera%20Zee%20School%2C%20Noida!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.468204652434!2d77.32832827550013!3d28.585708875691077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4504d603417%3A0xc6651a2f6430349c!2sB-95%2C%20Sector%2027%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
                  width="100%" 
                  height="100%" 
                  style={{ border: 0 }} 
