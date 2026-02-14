@@ -29,10 +29,16 @@ export default function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const whatsappNumber = "919810000000"; // Replace with actual number
+    const text = `Hello Dr. Sahai, I would like to book an appointment.\n\nName: ${values.name}\nPhone: ${values.phone}\nEmail: ${values.email}\nMessage: ${values.message}`;
+    const encodedText = encodeURIComponent(text);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedText}`;
+    
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: "Appointment Request Sent",
-      description: "We will contact you shortly to confirm your slot.",
+      title: "Opening WhatsApp",
+      description: "Redirecting you to chat with us.",
     });
     form.reset();
   }
