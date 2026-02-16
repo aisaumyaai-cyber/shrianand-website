@@ -29,7 +29,7 @@ export default function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    const whatsappNumber = "919971467879"; // Updated number
+    const whatsappNumber = "919310668788"; // WhatsApp number
     const text = `Hello Dr. Sahai, I would like to book an appointment.\n\nName: ${values.name}\nPhone: ${values.phone}\nEmail: ${values.email}\nMessage: ${values.message}`;
     const encodedText = encodeURIComponent(text);
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedText}`;
@@ -76,8 +76,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-slate-900 mb-1">Phone & WhatsApp</h3>
-                  <p className="text-slate-600">+91 99714 67879</p>
-                  <p className="text-slate-600">+91 120 4XXXXXX</p>
+                  <p className="text-slate-600">Call: +91 99714 67879</p>
+                  <p className="text-slate-600">WhatsApp: +91 93106 68788</p>
                 </div>
               </div>
 
