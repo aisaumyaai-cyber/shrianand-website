@@ -78,12 +78,12 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
-                    <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all bg-[#26272d] text-[#f2f4f7] border border-primary-border">
+                    <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all bg-[#26272d] text-white border border-primary-border">
                       Book Appointment
                     </Button>
                   </Link>
                   <Link href="/services">
-                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-2">
+                    <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-2 text-primary border-primary hover:bg-primary hover:text-white">
                       View Services
                     </Button>
                   </Link>
@@ -205,7 +205,7 @@ export default function Home() {
                 </div>
               </div>
               <Link href="/about">
-                <Button variant="secondary" className="mt-8">Read Full Bio</Button>
+                <Button variant="secondary" className="mt-8 text-white">Read Full Bio</Button>
               </Link>
             </div>
           </div>
@@ -252,9 +252,9 @@ export default function Home() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
               <Link href="/contact">
-                <Button size="lg" className="w-full sm:w-auto shadow-lg">Book Appointment</Button>
+                <Button size="lg" className="w-full sm:w-auto shadow-lg text-white">Book Appointment</Button>
               </Link>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white" onClick={() => window.open('tel:+919971467879', '_self')}>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white text-primary border-primary hover:bg-primary hover:text-white" onClick={() => window.open('tel:+919971467879', '_self')}>
                 <Phone className="w-4 h-4 mr-2" /> Call Now
               </Button>
             </div>

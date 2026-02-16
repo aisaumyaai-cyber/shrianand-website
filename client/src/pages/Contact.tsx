@@ -177,7 +177,7 @@ export default function Contact() {
                         </FormItem>
                       )}
                     />
-                    <Button type="submit" className="w-full h-12 text-lg">Send Request</Button>
+                    <Button type="submit" className="w-full h-12 text-lg text-white">Book Appointment</Button>
                   </form>
                 </Form>
               </CardContent>
