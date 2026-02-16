@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-heading font-bold text-white mb-4">Dr. Sanjay Sahai</h3>
             <p className="text-slate-400 mb-6 leading-relaxed">
-              Providing precision dental care with over 30 years of experience. Former HOD at Kailash Hospital, Noida.
+              Providing precision dental care with over 30 years of experience. Ex. Head of Dental Dept, Kailash Hospital, Noida. Formerly at LNJP & G.B. Pant Hospitals.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">

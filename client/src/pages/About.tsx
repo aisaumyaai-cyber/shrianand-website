@@ -34,7 +34,11 @@ export default function About() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                    <span>Ex-Head of Department, Kailash Hospital, Noida</span>
+                    <span>Ex. Head of Dental Department, Kailash Hospital, Noida</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                    <span>Formerly at LNJP Hospital & G.B. Pant Hospital, New Delhi</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
@@ -52,7 +56,7 @@ export default function About() {
                 Dr. Sanjay Sahai is a name synonymous with trust and dental excellence in Noida. Having graduated from the prestigious <strong>Maulana Azad Medical College (MAMC)</strong>, one of India's top medical institutions, he built a foundation of rigorous clinical training and medical ethics.
               </p>
               <p>
-                He served as the <strong>Head of Department (Dentistry) at Kailash Hospital, Noida</strong>, where he managed complex dental cases and led a team of specialists. This experience in a high-volume hospital setting gave him unique insights into managing dental emergencies and medically compromised patients.
+                He served as the <strong>Ex. Head of Dental Department at Kailash Hospital, Noida</strong>, where he managed complex dental cases and led a team of specialists. His distinguished career also includes valuable experience at <strong>LNJP Hospital</strong> and <strong>G.B. Pant Hospital, New Delhi</strong>.
               </p>
               <p>
                 Today, at his private practice, Dr. Sahai combines this vast experience with modern dental technology. His philosophy, <em>"Precision care through experience,"</em> reflects his belief that successful dentistry requires not just steady hands, but also the judgment that comes from treating thousands of smiles over decades.

@@ -67,7 +67,7 @@ export default function Home() {
               >
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold mb-6 text-[#090a01]">
                   <Award className="w-4 h-4" />
-                  <span>Ex-HOD Kailash Hospital, Noida</span>
+                  <span>Ex. Head of Dental Dept, Kailash Hospital</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-slate-900">
                   Noida’s Most <span className="text-primary">Trusted</span><br />
