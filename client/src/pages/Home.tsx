@@ -73,9 +73,7 @@ export default function Home() {
                   Noida’s Most <span className="text-primary">Trusted</span><br />
                   Dental Expert
                 </h1>
-                <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-xl">
-                  Dr. Sanjay Sahai brings over 30 years of experience from MAMC and Kailash Hospital to provide precision dental care for you and your family.
-                </p>
+                <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-xl">Dr. Sanjay Sahai brings over 30 years of distinguished dental experience. An alumnus of Maulana Azad Medical College (MAMC), he has served as the Former Head of the Dental Department at Kailash Hospital, with earlier tenures at LNJP Hospital and G.B. Pant Hospital, delivering precise and ethical dental care for individuals and families.</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
                     <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all bg-[#26272d] text-white border border-primary-border">
