@@ -260,7 +260,7 @@ export default function Home() {
               <Link href="/contact">
                 <Button size="lg" className="w-full sm:w-auto shadow-lg">Book Appointment</Button>
               </Link>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white" onClick={() => window.open('tel:+9198100XXXXX', '_self')}>
+              <Button size="lg" variant="outline" className="w-full sm:w-auto bg-white" onClick={() => window.open('tel:+919971467879', '_self')}>
                 <Phone className="w-4 h-4 mr-2" /> Call Now
               </Button>
             </div>
