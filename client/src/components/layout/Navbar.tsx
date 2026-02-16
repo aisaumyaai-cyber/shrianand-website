@@ -61,7 +61,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link href="/contact">
-            <Button className="shadow-lg hover:shadow-xl transition-all">
+            <Button className="shadow-lg hover:shadow-xl transition-all bg-[#b2c72e]">
               <Calendar className="w-4 h-4 mr-2" />
               Book Appointment
             </Button>
@@ -86,7 +86,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <Link href="/contact">
-                  <Button className="w-full mt-4">Book Appointment</Button>
+                  <Button className="w-full mt-4 bg-[#b2c72e]">Book Appointment</Button>
                 </Link>
               </div>
             </SheetContent>
