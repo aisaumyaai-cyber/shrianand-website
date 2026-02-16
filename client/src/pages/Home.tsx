@@ -118,7 +118,7 @@ export default function Home() {
                       <Star className="w-6 h-6 text-green-600 fill-current" />
                     </div>
                     <div>
-                      <p className="font-bold text-lg">4.9/5.0</p>
+                      <p className="font-bold text-lg">4.7/5.0</p>
                       <p className="text-xs text-slate-500">Based on 500+ Reviews</p>
                     </div>
                   </div>
