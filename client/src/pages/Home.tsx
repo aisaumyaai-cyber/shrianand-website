@@ -214,37 +214,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* REVIEWS */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Patient Stories</h2>
-            <p className="text-slate-600">See what our patients say about their smiles.</p>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <Carousel className="w-full">
-              <CarouselContent>
-                {testimonials.map((t, i) => (
-                  <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3 p-4">
-                    <Card className="border-none shadow-md h-full">
-                      <CardContent className="p-6">
-                        <div className="flex gap-1 text-yellow-400 mb-4">
-                          {[...Array(t.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
-                        </div>
-                        <p className="text-slate-600 italic mb-6">"{t.text}"</p>
-                        <div className="font-bold text-slate-900">- {t.name}</div>
-                      </CardContent>
-                    </Card>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
-          </div>
+    {/* REVIEWS */}
+    <section className="py-20 bg-slate-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Patient Stories</h2>
+          <p className="text-slate-600">See what our patients say about their smiles.</p>
         </div>
-      </section>
+        
+        <div className="max-w-4xl mx-auto">
+          <Carousel className="w-full">
+            <CarouselContent>
+              {testimonials.map((t, i) => (
+                <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3 p-4">
+                  <Card className="border-none shadow-md h-full">
+                    <CardContent className="p-6">
+                      <div className="flex gap-1 text-yellow-400 mb-4">
+                        {[...Array(t.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
+                      </div>
+                      <p className="text-slate-600 italic mb-6">"{t.text}"</p>
+                      <div className="font-bold text-slate-900">- {t.name}</div>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
+        </div>
+      </div>
+    </section>
 
       {/* CTA SECTION */}
       <section className="py-20 bg-white">
