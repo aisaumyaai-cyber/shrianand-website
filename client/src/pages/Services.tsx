@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import { Check } from "lucide-react";
+import { Check, Stethoscope, Microscope, Sparkles, Activity, Wand2, ShieldPlus } from "lucide-react";
 
 const services = [
   {
@@ -9,42 +9,42 @@ const services = [
     description: "Save your natural tooth with our painless, single-visit root canal treatments using advanced rotary files.",
     features: ["Pain-free procedure", "Advanced Rotary Tools", "Single sitting options"],
     price: "Consult for estimate",
-    icon: "🦷"
+    icon: <Stethoscope className="w-6 h-6" />
   },
   {
     title: "Dental Implants",
     description: "Replace missing teeth with titanium implants that look, feel, and function like natural teeth.",
     features: ["Permanent solution", "Natural look", "Preserves jaw bone"],
     price: "Consult for estimate",
-    icon: "🔩"
+    icon: <Microscope className="w-6 h-6" />
   },
   {
     title: "Cosmetic Dentistry",
     description: "Smile makeovers including veneers, bonding, and gum contouring to give you the smile of your dreams.",
     features: ["Veneers & Laminates", "Smile Design", "Gap closures"],
     price: "Varies by treatment",
-    icon: "✨"
+    icon: <Wand2 className="w-6 h-6" />
   },
   {
     title: "Teeth Whitening",
     description: "Professional whitening systems that are safe and effective, removing years of stains in one hour.",
     features: ["1 hour procedure", "Long lasting results", "Safe for enamel"],
     price: "Consult for estimate",
-    icon: "💎"
+    icon: <Sparkles className="w-6 h-6" />
   },
   {
     title: "Orthodontics",
     description: "Traditional braces and modern clear aligners to straighten teeth for children and adults.",
     features: ["Metal/Ceramic Braces", "Invisible Aligners", "Correction of bite"],
     price: "Consult for estimate",
-    icon: "😬"
+    icon: <Activity className="w-6 h-6" />
   },
   {
     title: "Preventive Care",
     description: "Routine checkups, cleaning (scaling), and fluoride treatments to prevent decay before it starts.",
     features: ["Ultrasonic Scaling", "Cavity Protection", "Gum Health Check"],
     price: "Starts @ ₹1000",
-    icon: "🛡️"
+    icon: <ShieldPlus className="w-6 h-6" />
   }
 ];
 
@@ -65,7 +65,7 @@ export default function Services() {
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col hover:shadow-lg transition-all duration-300 border-slate-100">
               <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center text-2xl mb-4">
+                <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center text-primary mb-4">
                   {service.icon}
                 </div>
                 <CardTitle className="text-2xl font-bold text-slate-900">{service.title}</CardTitle>

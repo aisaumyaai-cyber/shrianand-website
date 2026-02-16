@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Star, ShieldCheck, Clock, Award, CheckCircle2, Phone, Calendar, ArrowRight } from "lucide-react";
+import { Star, ShieldCheck, Clock, Award, CheckCircle2, Phone, Calendar, ArrowRight, Stethoscope, Microscope, Sparkles, Activity } from "lucide-react";
 import { Link } from "wouter";
 import {
   Carousel,
@@ -15,22 +15,22 @@ const services = [
   {
     title: "Root Canal Therapy",
     description: "Pain-free root canal treatments using advanced rotary endodontics.",
-    icon: "🦷",
+    icon: <Stethoscope className="w-8 h-8" />,
   },
   {
     title: "Dental Implants",
     description: "Permanent solutions for missing teeth with natural-looking results.",
-    icon: "🔩",
+    icon: <Microscope className="w-8 h-8" />,
   },
   {
     title: "Teeth Whitening",
     description: "Professional whitening services for a brighter, confident smile.",
-    icon: "✨",
+    icon: <Sparkles className="w-8 h-8" />,
   },
   {
     title: "Orthodontics",
     description: "Braces and aligners to correct alignment and bite issues.",
-    icon: "😬",
+    icon: <Activity className="w-8 h-8" />,
   },
 ];
 
@@ -155,7 +155,7 @@ export default function Home() {
               >
                 <Card className="h-full hover:shadow-lg transition-all border-slate-100 group">
                   <CardContent className="p-8 flex flex-col items-center text-center h-full">
-                    <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-4xl mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                    <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                       {service.icon}
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-slate-900">{service.title}</h3>
