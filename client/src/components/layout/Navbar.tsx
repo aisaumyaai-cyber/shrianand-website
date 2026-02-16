@@ -35,7 +35,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 bg-[#b2c72e] rounded-lg flex items-center justify-center text-[#1f2025] font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
               S
             </div>
             <div className="flex flex-col">

@@ -65,7 +65,7 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-primary text-sm font-semibold mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-[#b2c72e] text-sm font-semibold mb-6">
                   <Award className="w-4 h-4" />
                   <span>Ex-HOD Kailash Hospital, Noida</span>
                 </div>

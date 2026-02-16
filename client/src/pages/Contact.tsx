@@ -109,11 +109,11 @@ export default function Contact() {
 
           {/* Form */}
           <div className="lg:w-1/2">
-            <Card className="border-none shadow-2xl shadow-blue-100">
-              <CardHeader className="bg-primary text-white rounded-t-xl p-8">
+            <Card className="border-none shadow-2xl shadow-[#b2c72e]/10">
+              <CardHeader className="bg-[#b2c72e] text-[#1f2025] rounded-t-xl p-8">
                 <CardTitle className="text-2xl">Book an Appointment</CardTitle>
-                <CardDescription className="text-blue-100">
-                  Fill out the form below and our reception will call you to confirm.
+                <CardDescription className="text-[#1f2025]/80">
+                  Fill out the form below and our reception will connect with you to confirm.
                 </CardDescription>
               </CardHeader>
               <CardContent className="p-8">
