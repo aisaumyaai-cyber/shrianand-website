@@ -78,7 +78,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
-                    <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all">
+                    <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all bg-[#26272d] text-[#f2f4f7] border border-primary-border">
                       Book Appointment
                     </Button>
                   </Link>
