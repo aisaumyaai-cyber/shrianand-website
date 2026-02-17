@@ -244,7 +244,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="bg-primary/5 rounded-3xl p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/10">
             <div>
-              <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Ready for a Better Smile?</h2>
+              <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Ready for a Beautiful Healthy Smile?</h2>
               <p className="text-slate-600 text-lg max-w-md">
                 Book your appointment today at our modern clinic in Noida.
               </p>
