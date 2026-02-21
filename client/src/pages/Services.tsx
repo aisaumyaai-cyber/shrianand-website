@@ -5,9 +5,9 @@ import { Check, Stethoscope, Microscope, Sparkles, Activity, Wand2, ShieldPlus }
 
 const services = [
   {
-    title: "Root Canal Therapy",
-    description: "Save your natural tooth with our painless, single-visit root canal treatments using advanced rotary files.",
-    features: ["Pain-free procedure", "Advanced Rotary Tools", "Single sitting options"],
+    title: "Tooth Repair & Replacement",
+    description: "Expert restoration and replacement of damaged or missing teeth using modern prosthetics.",
+    features: ["Single Sitting RCT", "Dental Crowns & Bridges", "Full & Partial Dentures"],
     price: "Consult for estimate",
     icon: <Stethoscope className="w-6 h-6" />
   },
