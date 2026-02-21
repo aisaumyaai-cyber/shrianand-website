@@ -85,8 +85,7 @@ export default function Services() {
                     </div>
                   ))}
                 </div>
-                <div className="flex items-center justify-between mt-6 pt-6 border-t border-slate-100">
-                  <span className="text-sm font-semibold text-slate-400">{service.price}</span>
+                <div className="flex items-center justify-end mt-6 pt-6 border-t border-slate-100">
                   <Link href="/contact">
                     <Button variant="outline" size="sm" className="hover:bg-primary text-primary border-primary hover:text-white">
                       Book Now
