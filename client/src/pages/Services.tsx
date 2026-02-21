@@ -12,11 +12,11 @@ const services = [
     icon: <Stethoscope className="w-6 h-6" />
   },
   {
-    title: "Dental Implants",
-    description: "Replace missing teeth with titanium implants that look, feel, and function like natural teeth.",
-    features: ["Permanent solution", "Natural look", "Preserves jaw bone"],
+    title: "Tooth Infection Care",
+    description: "Comprehensive treatment for dental infections, focusing on pain relief and saving natural teeth.",
+    features: ["Single Sitting RCT", "Digital Apex Locator", "Rotary Endodontics"],
     price: "Consult for estimate",
-    icon: <Microscope className="w-6 h-6" />
+    icon: <Activity className="w-6 h-6" />
   },
   {
     title: "Cosmetic Dentistry",
