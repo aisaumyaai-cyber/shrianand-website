@@ -72,9 +72,6 @@ export default function Services() {
                   {service.icon}
                 </div>
                 <CardTitle className="text-2xl font-bold text-slate-900">{service.title}</CardTitle>
-                <CardDescription className="text-slate-500 text-base mt-2">
-                  {service.description}
-                </CardDescription>
               </CardHeader>
               <CardContent className="mt-auto pt-0">
                 <div className="space-y-3 mb-6">
