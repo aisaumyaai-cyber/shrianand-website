@@ -67,7 +67,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col hover:shadow-lg transition-all duration-300 border-slate-100">
-              <CardHeader>
+              <CardHeader className="bg-[#f7f7f77d]">
                 <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center text-primary mb-4">
                   {service.icon}
                 </div>
