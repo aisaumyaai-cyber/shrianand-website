@@ -26,9 +26,9 @@ const services = [
     icon: <Wand2 className="w-6 h-6" />
   },
   {
-    title: "Teeth Whitening",
-    description: "Professional whitening systems that are safe and effective, removing years of stains in one hour.",
-    features: ["1 hour procedure", "Long lasting results", "Safe for enamel"],
+    title: "Kids Dental Care",
+    description: "Gentle and fun dental treatments for children, focusing on prevention and building healthy habits.",
+    features: ["Painless Treatment", "Fluoride Application", "Kid-Friendly Environment"],
     price: "Consult for estimate",
     icon: <Sparkles className="w-6 h-6" />
   },
