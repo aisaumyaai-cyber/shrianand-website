@@ -68,7 +68,7 @@ export default function Services() {
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col hover:shadow-lg transition-all duration-300 border-slate-100">
               <CardHeader className="flex flex-col space-y-1.5 rounded-t-xl p-8 bg-[#b2c72e] text-[#1f2025] pt-[2px] pb-[2px] pl-[12px] pr-[12px] mt-[10px] mb-[10px] text-center">
-                <CardTitle className="tracking-tight text-2xl font-bold text-slate-900 text-center pt-[0px] pb-[0px]">{service.title}</CardTitle>
+                <CardTitle className="tracking-tight font-bold text-slate-900 text-center pt-[0px] pb-[0px] text-[18px]">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="mt-auto pt-0">
                 <div className="space-y-3 mb-6 pl-[10px] pr-[10px] pt-[18px] pb-[18px]">
