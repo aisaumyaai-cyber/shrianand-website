@@ -57,9 +57,10 @@ const services = [
     description: "Specialized surgical procedures including tooth extractions and minor oral surgeries with a focus on patient comfort.",
     features: [
       "Wisdom Tooth Extraction",
-      "Painless Tooth Removal",
-      "Minor Oral Surgery",
-      "Biopsy | Cyst Removal"
+      "Maxillofacial Surgery (Jaw & Facial Surgery)",
+      "Bone Grafting (Jaw Bone Strengthening)",
+      "Flap Gum Surgery",
+      "Apicoectomy | Pulpotomy (Root End Surgery)"
     ],
     price: "Consult for estimate",
     icon: <Activity className="w-6 h-6" />
