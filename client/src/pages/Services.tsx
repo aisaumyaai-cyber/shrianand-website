@@ -31,7 +31,12 @@ const services = [
   {
     title: "Cosmetic Dentistry",
     description: "Smile makeovers including veneers, bonding, and gum contouring to give you the smile of your dreams.",
-    features: ["Veneers & Laminates", "Smile Design", "Gap closures"],
+    features: [
+      "Gummy Smile | Smile Designing & Makeover",
+      "Veneers & Laminates (Chipped teeth)",
+      "Clear Aligners | Braces",
+      "TMJ (Jaw pain treatment)"
+    ],
     price: "Varies by treatment",
     icon: <Wand2 className="w-6 h-6" />
   },
