@@ -81,7 +81,7 @@ export default function Services() {
                 <CardTitle className="tracking-tight font-bold text-slate-900 text-center pt-[0px] pb-[0px] text-[18px]">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="mt-auto pt-0">
-                <div className="space-y-3 pl-[10px] pr-[10px] pt-[18px] pb-[18px] mt-[8px] mb-[8px]">
+                <div className="space-y-3 pl-[10px] pr-[10px] pt-[18px] pb-[18px] mt-[8px] mb-[8px] text-[14px]">
                   {service.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center gap-2 text-sm text-slate-700">
                       <Check className="w-4 h-4 text-primary" />
