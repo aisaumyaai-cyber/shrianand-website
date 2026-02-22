@@ -43,7 +43,12 @@ const services = [
   {
     title: "Kids Dental Care",
     description: "Gentle and fun dental treatments for children, focusing on prevention and building healthy habits.",
-    features: ["Painless Treatment", "Fluoride Application", "Kid-Friendly Environment"],
+    features: [
+      "Painless Treatment",
+      "Cavities | Decay Prevention & Treatment",
+      "Milk Teeth & Jaw Development",
+      "Fluoride Treatment"
+    ],
     price: "Consult for estimate",
     icon: <Sparkles className="w-6 h-6" />
   },
