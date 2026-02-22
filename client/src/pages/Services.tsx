@@ -53,9 +53,14 @@ const services = [
     icon: <Sparkles className="w-6 h-6" />
   },
   {
-    title: "Orthodontics",
-    description: "Traditional braces and modern clear aligners to straighten teeth for children and adults.",
-    features: ["Metal/Ceramic Braces", "Invisible Aligners", "Correction of bite"],
+    title: "Dental Surgery",
+    description: "Specialized surgical procedures including tooth extractions and minor oral surgeries with a focus on patient comfort.",
+    features: [
+      "Wisdom Tooth Extraction",
+      "Painless Tooth Removal",
+      "Minor Oral Surgery",
+      "Biopsy | Cyst Removal"
+    ],
     price: "Consult for estimate",
     icon: <Activity className="w-6 h-6" />
   },
