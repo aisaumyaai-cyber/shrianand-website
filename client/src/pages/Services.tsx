@@ -19,7 +19,12 @@ const services = [
   {
     title: "Tooth Infection Care",
     description: "Comprehensive treatment for dental infections, focusing on pain relief and saving natural teeth.",
-    features: ["Single Sitting RCT", "Digital Apex Locator", "Rotary Endodontics"],
+    features: [
+      "Single Sitting RCT (Root Canal Treatment)",
+      "Dental Cavities",
+      "Teeth Cleaning (Scaling and Polishing)",
+      "Bleeding Gums Infection"
+    ],
     price: "Consult for estimate",
     icon: <Activity className="w-6 h-6" />
   },
