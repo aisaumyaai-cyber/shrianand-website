@@ -9,7 +9,8 @@ const services = [
     description: "Expert restoration and replacement of damaged or missing teeth using modern prosthetics.",
     features: [
       "Implants",
-      "Dentures | Bridges",
+      "Dentures",
+      "Bridges",
       "Dental Crowns",
       "Dental Fillings | Inlays, Onlays"
     ],
