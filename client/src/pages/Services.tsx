@@ -48,7 +48,8 @@ const services = [
       "Painless Treatment",
       "Cavities | Decay Prevention & Treatment",
       "Milk Teeth & Jaw Development",
-      "Fluoride Treatment"
+      "Fluoride Treatment",
+      "Kids - Friendly Environment & Tools"
     ],
     price: "Consult for estimate",
     icon: <Sparkles className="w-6 h-6" />
