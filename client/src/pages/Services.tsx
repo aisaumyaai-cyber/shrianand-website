@@ -8,10 +8,10 @@ const services = [
     title: "Tooth Repair & Replacement",
     description: "Expert restoration and replacement of damaged or missing teeth using modern prosthetics.",
     features: [
-      "Implants | Dentures",
-      "Bridges | Inlays, Onlays",
+      "Implants",
+      "Dentures | Bridges",
       "Dental Crowns",
-      "Dental Fillings"
+      "Dental Fillings | Inlays, Onlays"
     ],
     price: "Consult for estimate",
     icon: <Stethoscope className="w-6 h-6" />
