@@ -109,11 +109,16 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative z-10"
               >
-                <img
-                  src="/images/patient-smile.png"
-                  alt="Happy Patient"
-                  className="rounded-3xl shadow-2xl object-cover w-full h-[500px] hover:scale-[1.02] transition-transform duration-500"
-                />
+                <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
+                  <video
+                    src="/src/assets/videos/patient-smiles.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
+                  />
+                </div>
                 {/* Floating Card */}
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl max-w-xs hidden md:block animate-in slide-in-from-bottom-4 duration-1000">
                   <div className="flex items-center gap-4 mb-3">
