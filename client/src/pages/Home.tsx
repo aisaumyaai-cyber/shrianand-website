@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Star, ShieldCheck, Clock, Award, CheckCircle2, Phone, Calendar, ArrowRight, Stethoscope, Microscope, Sparkles, Activity, Wand2, ShieldPlus, Check } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Star, ShieldCheck, Clock, Award, CheckCircle2, Phone, Calendar, ArrowRight, Stethoscope, Microscope, Sparkles, Activity } from "lucide-react";
 import { Link } from "wouter";
-import Autoplay from "embla-carousel-autoplay";
 import {
   Carousel,
   CarouselContent,
@@ -14,76 +13,25 @@ import {
 
 const services = [
   {
-    title: "Tooth Repair & Replacement",
-    description: "Expert restoration and replacement of damaged or missing teeth using modern prosthetics.",
-    features: [
-      "Implants",
-      "Dentures",
-      "Bridges",
-      "Dental Crowns",
-      "Dental Fillings | Inlays, Onlays"
-    ],
-    icon: <Stethoscope className="w-8 h-8" />
+    title: "Root Canal Therapy",
+    description: "Pain-free root canal treatments using advanced rotary endodontics.",
+    icon: <Stethoscope className="w-8 h-8" />,
   },
   {
-    title: "Tooth Infection Care",
-    description: "Comprehensive treatment for dental infections, focusing on pain relief and saving natural teeth.",
-    features: [
-      "Single Sitting RCT (Root Canal Treatment)",
-      "Dental Cavities",
-      "Teeth Cleaning (Scaling and Polishing)",
-      "Bleeding Gums Infection"
-    ],
-    icon: <Activity className="w-8 h-8" />
+    title: "Dental Implants",
+    description: "Permanent solutions for missing teeth with natural-looking results.",
+    icon: <Microscope className="w-8 h-8" />,
   },
   {
-    title: "Cosmetic Dentistry",
-    description: "Smile makeovers including veneers, bonding, and gum contouring.",
-    features: [
-      "Gummy Smile | Smile Designing & Makeover",
-      "Veneers & Laminates (Chipped teeth)",
-      "Clear Aligners | Braces",
-      "TMJ (Jaw pain treatment)"
-    ],
-    icon: <Wand2 className="w-8 h-8" />
+    title: "Teeth Whitening",
+    description: "Professional whitening services for a brighter, confident smile.",
+    icon: <Sparkles className="w-8 h-8" />,
   },
   {
-    title: "Kids Dental Care",
-    description: "Gentle and fun dental treatments for children, focusing on prevention.",
-    features: [
-      "Painless Treatment",
-      "Cavities | Decay Prevention & Treatment",
-      "Milk Teeth & Jaw Development",
-      "Fluoride Treatment",
-      "Kids - Friendly Environment & Tools"
-    ],
-    icon: <Sparkles className="w-8 h-8" />
+    title: "Orthodontics",
+    description: "Braces and aligners to correct alignment and bite issues.",
+    icon: <Activity className="w-8 h-8" />,
   },
-  {
-    title: "Dental Surgery",
-    description: "Specialized surgical procedures including tooth extractions and minor oral surgeries.",
-    features: [
-      "Wisdom Tooth Extraction",
-      "Maxillofacial Surgery (Jaw & Facial Surgery)",
-      "Bone Grafting (Jaw Bone Strengthening)",
-      "Flap Gum Surgery",
-      "Apicoectomy | Pulpotomy (Root End Surgery)"
-    ],
-    icon: <Activity className="w-8 h-8" />
-  },
-  {
-    title: "Preventive Care",
-    description: "Routine checkups, cleaning (scaling), and fluoride treatments.",
-    features: [
-      "Ultrasonic Scaling",
-      "Intraoral Scanners | Cameras",
-      "Xrays",
-      "Digital Smile Design",
-      "Sedation Facilities",
-      "Digital-Bio-Secure Clinical Infrastructure"
-    ],
-    icon: <ShieldPlus className="w-8 h-8" />
-  }
 ];
 
 const testimonials = [
@@ -200,55 +148,31 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="max-w-6xl mx-auto">
-            <Carousel
-              opts={{
-                align: "start",
-                loop: true,
-              }}
-              plugins={[
-                Autoplay({
-                  delay: 3000,
-                }),
-              ]}
-              className="w-full"
-            >
-              <CarouselContent className="-ml-4">
-                {services.map((service, index) => (
-                  <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
-                    <Card className="h-full hover:shadow-lg transition-all border-slate-100 flex flex-col">
-                      <CardHeader className="flex flex-col space-y-1.5 rounded-t-xl p-8 bg-[#b2c72e] text-[#1f2025] pt-[2px] pb-[2px] pl-[12px] pr-[12px] mt-[10px] mb-[10px] text-center">
-                        <CardTitle className="tracking-tight font-bold text-slate-900 text-center pt-[0px] pb-[0px] text-[18px]">
-                          {service.title}
-                        </CardTitle>
-                      </CardHeader>
-                      <CardContent className="p-8 flex flex-col items-center text-center flex-grow pt-4">
-                        <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6">
-                          {service.icon}
-                        </div>
-                        <div className="space-y-3 text-left w-full mb-6">
-                          {service.features.map((feature, idx) => (
-                            <div key={idx} className="flex items-start gap-2 text-sm text-slate-700">
-                              <Check className="w-4 h-4 mt-0.5 text-primary shrink-0" />
-                              <span>{feature}</span>
-                            </div>
-                          ))}
-                        </div>
-                        <Link href="/services" className="mt-auto">
-                          <a className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                            Learn More <ArrowRight className="w-4 h-4" />
-                          </a>
-                        </Link>
-                      </CardContent>
-                    </Card>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <div className="hidden md:block">
-                <CarouselPrevious className="-left-12" />
-                <CarouselNext className="-right-12" />
-              </div>
-            </Carousel>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {services.map((service, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                viewport={{ once: true }}
+              >
+                <Card className="h-full hover:shadow-lg transition-all border-slate-100 group">
+                  <CardContent className="p-8 flex flex-col items-center text-center h-full">
+                    <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                      {service.icon}
+                    </div>
+                    <h3 className="text-xl font-bold mb-3 text-slate-900">{service.title}</h3>
+                    <p className="text-slate-500 mb-6 flex-grow">{service.description}</p>
+                    <Link href="/services">
+                      <a className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                        Learn More <ArrowRight className="w-4 h-4" />
+                      </a>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
