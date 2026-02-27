@@ -77,7 +77,7 @@ export default function Home() {
                   Noida’s Most <span className="text-primary">Trusted</span><br />
                   Dental Expert
                 </h1>
-                <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-xl">Dr. Sanjay Sahai, one of Noida's best dentists with over 30 years of distinguished experience, leads Shri Anand Bright Dental Clinic—Noida’s most trusted dental clinic since 1997. A Maulana Azad Medical College (MAMC) alumnus and Former Head of Dental Department at Kailash Hospital, he served at LNJP Hospital Delhi and G.B. Pant Hospital Delhi as a leading dentist, delivering best root canal treatments, dental implants and specialist approach in complex dental surgery and ethical family dental solutions.</p>
+                <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-xl">Dr. Sanjai Sahai, one of Noida's best dentists with over 30 years of distinguished experience, leads Shri Anand Bright Dental Clinic—Noida’s most trusted dental clinic since 1997. A Maulana Azad Medical College (MAMC) alumnus and Former Head of Dental Department at Kailash Hospital, he served at LNJP Hospital Delhi and G.B. Pant Hospital Delhi as a leading dentist, delivering best root canal treatments, dental implants and specialist approach in complex dental surgery and ethical family dental solutions.</p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/contact">
                     <Button size="lg" className="h-14 px-8 text-lg shadow-lg hover:shadow-primary/20 transition-all border border-primary-border bg-[#26272d] text-[#f5f5f5]">
