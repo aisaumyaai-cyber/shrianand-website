@@ -70,7 +70,14 @@ const services = [
   {
     title: "Preventive Care",
     description: "Routine checkups, cleaning (scaling), and fluoride treatments to prevent decay before it starts.",
-    features: ["Ultrasonic Scaling", "Cavity Protection", "Gum Health Check"],
+    features: [
+      "Ultrasonic Scaling",
+      "Intraoral Scanners | Cameras",
+      "Xrays",
+      "Digital Smile Design",
+      "Sedation Facilities",
+      "Digital-Bio-Secure Clinical Infrastructure"
+    ],
     price: "Starts @ ₹1000",
     icon: <ShieldPlus className="w-6 h-6" />
   }
