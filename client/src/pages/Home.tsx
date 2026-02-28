@@ -108,7 +108,7 @@ export default function Home() {
               >
                 <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
                   <video
-                    src="/src/assets/videos/patient-transition-toddler.mp4"
+                    src="/src/assets/videos/patient-transition-denture-refined.mp4"
                     autoPlay
                     loop
                     muted
