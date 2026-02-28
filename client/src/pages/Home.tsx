@@ -15,7 +15,7 @@ const services = [
   {
     title: "Root Canal Therapy",
     description: "Pain-free root canal treatments using advanced rotary endodontics.",
-    icon: <Stethoscope className="w-8 h-8" />,
+    icon: <img src="/images/root_canal.png" alt="Root Canal" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Dental Implants",
