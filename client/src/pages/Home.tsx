@@ -20,7 +20,7 @@ const services = [
   {
     title: "Dental Implants",
     description: "Permanent solutions for missing teeth with natural-looking results.",
-    icon: <Microscope className="w-8 h-8" />,
+    icon: <img src="/images/implant.png" alt="Dental Implant" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Teeth Whitening",
