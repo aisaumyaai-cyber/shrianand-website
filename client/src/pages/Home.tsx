@@ -30,7 +30,7 @@ const services = [
   {
     title: "Orthodontics",
     description: "Braces and aligners to correct alignment and bite issues.",
-    icon: <Activity className="w-8 h-8" />,
+    icon: <img src="/images/aligner.png" alt="Orthodontics" className="w-12 h-12 object-contain" />,
   },
 ];
 
