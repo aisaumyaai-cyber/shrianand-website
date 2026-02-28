@@ -25,7 +25,7 @@ const services = [
   {
     title: "Teeth Whitening",
     description: "Professional whitening services for a brighter, confident smile.",
-    icon: <Sparkles className="w-8 h-8" />,
+    icon: <img src="/images/teeth_whitening.png" alt="Teeth Whitening" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Orthodontics",
