@@ -2,20 +2,20 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const BeforeAfter = ({ before, after, label }: { before: string; after: string; label: string }) => {
   return (
-    <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden group shadow-lg">
+    <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden group shadow-lg border border-slate-100 bg-white">
       <div className="flex w-full h-full">
         <div className="relative w-1/2 h-full border-r-2 border-white">
           <img src={before} alt="Before" className="w-full h-full object-cover" />
-          <div className="absolute top-4 left-4 bg-black/50 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">Before</div>
+          <div className="absolute top-4 left-4 bg-black/50 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded backdrop-blur-sm">Before</div>
         </div>
         <div className="relative w-1/2 h-full">
           <img src={after} alt="After" className="w-full h-full object-cover" />
-          <div className="absolute top-4 right-4 bg-primary/80 text-white text-xs px-2 py-1 rounded backdrop-blur-sm">After</div>
+          <div className="absolute top-4 right-4 bg-primary/90 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded backdrop-blur-sm">After</div>
         </div>
       </div>
       
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent text-white opacity-100 transition-opacity">
-        <p className="font-bold">{label}</p>
+      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white opacity-100 transition-opacity">
+        <p className="font-bold text-lg">{label}</p>
       </div>
     </div>
   );
@@ -23,27 +23,60 @@ const BeforeAfter = ({ before, after, label }: { before: string; after: string; 
 
 export default function Gallery() {
   return (
-    <div className="pt-24 pb-20">
+    <div className="pt-24 pb-20 bg-slate-50">
       <div className="container mx-auto px-4">
+        {/* Transformations Section */}
         <div className="text-center mb-16">
           <div className="mb-4">
             <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
           </div>
-          <h1 className="text-4xl font-bold font-heading mb-4">Inside the Smile Transformation</h1>
-          <p className="text-slate-600">A glimpse into our smile design process</p>
+          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-slate-900">Inside the Smile Transformation</h1>
+          <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">Real results from our precision dental care. Explore the transformations that redefine smiles.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-20">
+        <div className="grid md:grid-cols-2 gap-8 mb-24">
            <BeforeAfter 
-             before="/images/patient-smile.png" 
-             after="/images/patient-smile.png" 
-             label="Teeth Whitening" 
+             before="/images/gallery/whitening-before.jpg" 
+             after="/images/gallery/whitening-after.jpg" 
+             label="Professional Whitening" 
            />
            <BeforeAfter 
-             before="/images/patient-smile.png" 
-             after="/images/patient-smile.png" 
-             label="Ceramic Veneers" 
+             before="/images/gallery/braces-before.jpg" 
+             after="/images/gallery/braces-after.jpg" 
+             label="Orthodontic Correction" 
            />
+           <BeforeAfter 
+             before="/images/gallery/dentures-before.jpg" 
+             after="/images/gallery/dentures-after.jpg" 
+             label="Complete Dentures" 
+           />
+           <BeforeAfter 
+             before="/images/gallery/patient-1.jpg" 
+             after="/images/gallery/patient-2.jpg" 
+             label="Restorative Care" 
+           />
+        </div>
+
+        {/* Clinical Excellence Section */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Clinical Excellence</h2>
+          <p className="text-slate-600 text-lg leading-relaxed">Advanced diagnostics and our patient-centric environment in Noida.</p>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {[
+            { src: "/images/gallery/xray-1.jpg", label: "Digital Diagnostics" },
+            { src: "/images/gallery/clinic-1.jpg", label: "Modern Operatory" },
+            { src: "/images/gallery/clinic-2.jpg", label: "Advanced Sterilization" },
+            { src: "/images/gallery/whitening-after.jpg", label: "Precision Care" }
+          ].map((item, idx) => (
+            <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg aspect-square bg-slate-200">
+              <img src={item.src} alt={item.label} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <span className="text-white font-bold text-lg leading-tight">{item.label}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
