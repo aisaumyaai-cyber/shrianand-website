@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-const BeforeAfter = ({ before, after, label }: { before: string; after: string; label: string }) => {
+const BeforeAfter = ({ before, after }: { before: string; after: string }) => {
   return (
     <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden group shadow-lg border border-slate-100 bg-white">
       <div className="flex w-full h-full">
@@ -10,10 +10,6 @@ const BeforeAfter = ({ before, after, label }: { before: string; after: string; 
         <div className="relative w-1/2 h-full">
           <img src={after} alt="After" className="w-full h-full object-cover" />
         </div>
-      </div>
-      
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white opacity-100 transition-opacity">
-        <p className="font-bold text-lg">{label}</p>
       </div>
     </div>
   );
@@ -36,22 +32,18 @@ export default function Gallery() {
            <BeforeAfter 
              before="/images/gallery/whitening-before.jpg" 
              after="/images/gallery/whitening-after.jpg" 
-             label="Professional Whitening" 
            />
            <BeforeAfter 
              before="/images/gallery/braces-before.jpg" 
              after="/images/gallery/braces-after.jpg" 
-             label="Orthodontic Correction" 
            />
            <BeforeAfter 
              before="/images/gallery/dentures-before.jpg" 
              after="/images/gallery/dentures-after.jpg" 
-             label="Complete Dentures" 
            />
            <BeforeAfter 
              before="/images/gallery/patient-1.jpg" 
              after="/images/gallery/patient-2.jpg" 
-             label="Restorative Care" 
            />
         </div>
 
