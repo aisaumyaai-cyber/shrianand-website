@@ -38,16 +38,6 @@ const BeforeAfter = ({ before, after, label }: { before: string; after: string; 
         </div>
       </div>
       
-      {/* Input Overlay */}
-      <input
-        type="range"
-        min="0"
-        max="100"
-        value={sliderValue}
-        onChange={(e) => setSliderValue(Number(e.target.value))}
-        className="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20"
-      />
-      
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent text-white opacity-0 group-hover:opacity-100 transition-opacity">
         <p className="font-bold">{label}</p>
       </div>
