@@ -80,15 +80,6 @@ export default function Gallery() {
            {/* Note: In a real implementation, I'd need actual separate images. 
                Here I'm reusing the generated one just to show the interaction UI. */}
         </div>
-
-        <div className="text-center mb-12">
-            <h2 className="text-2xl font-bold font-heading mb-4">Clinic Tour</h2>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <img src="/images/hero-clinic.png" className="w-full h-64 object-cover rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer" />
-            <img src="/images/treatment-room.png" className="w-full h-64 object-cover rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer" />
-            <img src="/images/hero-clinic.png" className="w-full h-64 object-cover rounded-xl hover:scale-105 transition-transform duration-500 cursor-pointer" />
-        </div>
       </div>
     </div>
   );

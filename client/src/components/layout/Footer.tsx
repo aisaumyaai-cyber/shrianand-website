@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-heading font-bold text-white mb-4">Dr. Sanjay Sahai</h3>
+            <h3 className="text-2xl font-heading font-bold text-white mb-4">Dr. Sanjai Sahai</h3>
             <p className="text-slate-400 mb-6 leading-relaxed">
               Providing precision dental care with over 30 years of experience. Ex. Head of Dental Dept, Kailash Hospital, Noida. Formerly at LNJP & G.B. Pant Hospitals.
             </p>
@@ -68,7 +68,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>clinic@drsanjaysahai.com</span>
+                <span>clinic@drsanjaisahai.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-primary shrink-0 mt-1" />
@@ -83,7 +83,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {new Date().getFullYear()} Dr. Sanjay Sahai. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dr. Sanjai Sahai. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

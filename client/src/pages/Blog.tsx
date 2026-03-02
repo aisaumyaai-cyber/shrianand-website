@@ -8,14 +8,14 @@ const posts = [
     excerpt: "Looking for a reliable dentist? Here are the 5 key factors you should consider before booking your appointment...",
     date: "Oct 12, 2024",
     category: "Dental Guide",
-    author: "Dr. Sanjay Sahai"
+    author: "Dr. Sanjai Sahai"
   },
   {
     title: "5 Myths About Root Canal Treatment You Should Stop Believing",
     excerpt: "Root canals have a bad reputation, but modern technology has made them virtually painless. Let's debunk the myths...",
     date: "Oct 05, 2024",
     category: "Education",
-    author: "Dr. Sanjay Sahai"
+    author: "Dr. Sanjai Sahai"
   },
   {
     title: "Smile Makeover Costs in Noida: What to Expect",
