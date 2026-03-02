@@ -6,11 +6,9 @@ const BeforeAfter = ({ before, after, label }: { before: string; after: string; 
       <div className="flex w-full h-full">
         <div className="relative w-1/2 h-full border-r-2 border-white">
           <img src={before} alt="Before" className="w-full h-full object-cover" />
-          <div className="absolute top-4 left-4 bg-black/50 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded backdrop-blur-sm">Before</div>
         </div>
         <div className="relative w-1/2 h-full">
           <img src={after} alt="After" className="w-full h-full object-cover" />
-          <div className="absolute top-4 right-4 bg-primary/90 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded backdrop-blur-sm">After</div>
         </div>
       </div>
       
