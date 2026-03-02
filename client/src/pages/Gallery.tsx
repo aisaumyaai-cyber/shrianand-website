@@ -60,7 +60,7 @@ export default function Gallery() {
     <div className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold font-heading mb-4">Smile Gallery</h1>
+          <h1 className="text-4xl font-bold font-heading mb-4">Inside the Smile Transformation</h1>
           <p className="text-slate-600">Real results from our happy patients.</p>
         </div>
 
