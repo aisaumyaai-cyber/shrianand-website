@@ -176,45 +176,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* CREDENTIALS BANNER */}
-      <section className="py-20 bg-primary text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/clinic-bg-pattern.png')] opacity-10" />
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
-            <div className="lg:w-1/2">
-               <div className="w-full aspect-video rounded-xl bg-slate-900/20 backdrop-blur-sm overflow-hidden relative border border-white/20">
-                  <img src="/images/hero-clinic.png" className="w-full h-full object-cover opacity-80" alt="Clinic" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                     <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
-                        <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1" />
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div className="lg:w-1/2 text-center lg:text-left">
-              <h2 className="text-3xl md:text-4xl font-bold font-heading mb-6">
-                Meet Dr. Sanjay Sahai
-              </h2>
-              <p className="text-blue-100 text-lg mb-8 leading-relaxed">
-                A distinguished alumnus of Maulana Azad Medical College (MAMC), Delhi, Dr. Sahai served as the Head of Department at Kailash Hospital, Noida. His philosophy focuses on "Precision care through experience," ensuring every patient receives the highest standard of dental treatment.
-              </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
-                  <h4 className="font-bold text-2xl mb-1">MAMC</h4>
-                  <p className="text-sm text-blue-200">Alumnus</p>
-                </div>
-                <div className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
-                  <h4 className="font-bold text-2xl mb-1">Ex-HOD</h4>
-                  <p className="text-sm text-blue-200">Kailash Hospital</p>
-                </div>
-              </div>
-              <Link href="/about">
-                <Button variant="secondary" className="mt-8 text-white">Read Full Bio</Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* REVIEWS */}
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
