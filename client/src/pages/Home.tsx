@@ -89,12 +89,8 @@ export default function Home() {
                 </div>
                 <div className="mt-10 flex items-center gap-8 text-sm font-medium text-slate-500">
                   <div className="flex items-center gap-2">
-                    <ShieldCheck className="w-5 h-5 text-primary" />
-                    <span>MAMC Alumni</span>
-                  </div>
-                  <div className="flex items-center gap-2">
                     <Clock className="w-5 h-5 text-primary" />
-                    <span>30+ Years Exp.</span>
+                    <span>30+ Years Experience</span>
                   </div>
                 </div>
               </motion.div>
