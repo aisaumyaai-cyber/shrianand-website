@@ -97,12 +97,9 @@ export default function Home() {
                 className="relative z-10"
               >
                 <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
-                  <video
-                    src="/videos/dental-treatment-transition.mp4"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
+                  <img
+                    src="/images/hero-smile.png"
+                    alt="Perfect Smile"
                     className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>
