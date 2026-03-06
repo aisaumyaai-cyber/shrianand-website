@@ -98,7 +98,7 @@ export default function Home() {
               >
                 <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
                   <img
-                    src="/images/hero-smile-indian.png"
+                    src="/images/hero-smile-indian-zoomed.png"
                     alt="Perfect Smile"
                     className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
                   />
