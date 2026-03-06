@@ -63,9 +63,9 @@ export default function Contact() {
                 <div>
                   <h3 className="font-bold text-lg text-slate-900 mb-1">Clinic Location</h3>
                   <p className="text-slate-600">
-                    B-95, near Mount Litera Noida | Mount Litera Zee School,<br />
-                    B Block, Pocket B, Sector 27,<br />
-                    Noida, Uttar Pradesh 201301
+                    B-95 (BASEMENT) SECTOR-27,<br />
+                    NEAR MOUNT LITERA SCHOOL, NOIDA<br />
+                    Uttar Pradesh 201301
                   </p>
                 </div>
               </div>
