@@ -36,11 +36,6 @@ const services = [
 
 const testimonials = [
   {
-    name: "Rohit Verma",
-    text: "I highly recommend Dr Sanjai Sahai. My brother-in-law had also suggested him and then i also came across your post for Dr Sanjai Sahai. Indeed a very good dentist. I was taking medicines from a long time but no results. He stopped all of them asked me to take 2 medicines prescribed by him. IT WORKED. I guess this shows his 30 yrs of experience. I am so impressed, hats off.",
-    rating: 5,
-  },
-  {
     name: "Rajesh Kumar",
     text: "Dr. Sahai is incredibly gentle. I was terrified of the root canal, but he made it painless. Highly recommended!",
     rating: 5,
