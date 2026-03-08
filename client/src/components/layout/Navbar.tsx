@@ -35,8 +35,8 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-[#b2c72e] rounded-lg flex items-center justify-center text-[#1f2025] font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
-              S
+            <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-md group-hover:scale-105 transition-transform shrink-0">
+              <img src="/shrianand-website/images/logo/logo.png" alt="Shri Anand Bright Dental Clinic Logo" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
