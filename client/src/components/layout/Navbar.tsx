@@ -60,12 +60,12 @@ export function Navbar() {
               </a>
             </Link>
           ))}
-          <Link href="/contact">
-            <Button className="shadow-lg hover:shadow-xl transition-all border border-primary-border min-h-9 px-4 py-2 w-full h-12 text-lg bg-[#26272d] text-white">
-              <Calendar className="w-4 h-4 mr-2" />
-              Book Appointment
+          <a href="tel:+919971467879" className="w-full sm:w-auto">
+            <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover-elevate active-elevate-2 border border-primary-border min-h-9 px-4 py-2 w-full h-12 text-lg bg-[#26272d] text-[#ffffff] shadow-lg hover:shadow-xl">
+              <Phone className="w-5 h-5 mr-2" />
+              <span>+91 9971467879</span>
             </Button>
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Nav */}
@@ -85,9 +85,12 @@ export function Navbar() {
                     </a>
                   </Link>
                 ))}
-                <Link href="/contact">
-                  <Button className="w-full mt-4 border border-primary-border min-h-9 px-4 py-2 text-lg bg-[#26272d] text-white">Book Appointment</Button>
-                </Link>
+                <a href="tel:+919971467879" className="w-full mt-4">
+                  <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-primary-border min-h-9 px-4 py-2 w-full h-12 text-lg bg-[#26272d] text-[#ffffff]">
+                    <Phone className="w-5 h-5 mr-2" />
+                    <span>+91 9971467879</span>
+                  </Button>
+                </a>
               </div>
             </SheetContent>
           </Sheet>
