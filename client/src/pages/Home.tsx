@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden">
       {/* HERO SECTION */}
-      <section className="relative lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px] mt-[80px] mb-[80px] pt-[80px] pb-[80px]">
+      <section className="relative lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px] mt-[80px] mb-[80px] pt-[50px] pb-[50px]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2 z-10">
