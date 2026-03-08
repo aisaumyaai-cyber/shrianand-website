@@ -107,3 +107,10 @@
     @apply font-heading tracking-tight;
   }
 }
+
+/* Force white text on call buttons */
+.btn-call-white,
+.btn-call-white span,
+.btn-call-white svg {
+  color: #ffffff !important;
+}
