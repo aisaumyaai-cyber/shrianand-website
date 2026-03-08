@@ -69,7 +69,7 @@ export default function Home() {
                   <span className="text-[#b2c72e] font-bold text-sm tracking-[0.2em] uppercase">Smiling Point of Dentistry</span>
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-fit">
                     <Award className="w-4 h-4 shrink-0" />
-                    <span className="text-[#090a01a3] text-left">Ex. Head of Dental Department, Kailash Hospital • Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
+                    <span className="text-[#090a01a3] text-left">Ex. Head of Dental Department, Kailash Hospital<br />Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
                   </div>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-[#43444ae3]">
