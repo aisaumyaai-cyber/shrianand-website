@@ -8,9 +8,6 @@ export default function About() {
       <section className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="mb-4">
-            <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#43444ae3]">
             About Dr. Sanjai Sahai
           </h1>
