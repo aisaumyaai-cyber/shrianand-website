@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
       {/* EXPERTISE SECTION */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white pt-[10px] pb-[10px]">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4 text-[#43444ae3]">
