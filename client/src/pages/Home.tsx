@@ -94,7 +94,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 relative">
               <div className="text-center w-full mb-6 relative z-20 hidden lg:block">
-                <span className="text-[#b2c72e] font-bold text-sm tracking-[0.3em] uppercase bg-white/80 backdrop-blur-sm py-2 px-6 rounded-full shadow-sm inline-block">The Smiling Point of Dentistry</span>
+                <span className="text-sm tracking-[0.3em] uppercase backdrop-blur-sm py-2 px-6 rounded-full shadow-sm inline-block text-[#728517] bg-[#f2f0f09c] font-extrabold">The Smiling Point of Dentistry</span>
               </div>
               <div className="text-center w-full mb-6 relative z-20 lg:hidden block">
                 <span className="text-[#b2c72e] font-bold text-sm tracking-[0.2em] uppercase bg-white/80 backdrop-blur-sm py-2 px-4 rounded-full shadow-sm inline-block">The Smiling Point of Dentistry</span>
