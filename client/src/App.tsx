@@ -13,8 +13,10 @@ import Gallery from "@/pages/Gallery";
 import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
 
-// Use the base path from Vite config (defaults to '/' in dev, '/shrianand-website/' in prod)
-const base = import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL;
+// Use the base path from Vite config
+const basePath = import.meta.env.BASE_URL;
+// wouter requires the base path to not have a trailing slash unless it's just '/'
+const base = basePath === '/' ? '' : basePath.replace(/\/$/, '');
 
 function Router() {
   return (

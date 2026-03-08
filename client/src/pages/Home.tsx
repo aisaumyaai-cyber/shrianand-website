@@ -15,22 +15,22 @@ const services = [
   {
     title: "Root Canal Therapy",
     description: "Pain-free root canal treatments using advanced rotary endodontics.",
-    icon: <img src="/images/root_canal.png" alt="Root Canal" className="w-12 h-12 object-contain" />,
+    icon: <img src="/shrianand-website/images/root_canal.png" alt="Root Canal" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Dental Implants",
     description: "Permanent solutions for missing teeth with natural-looking results.",
-    icon: <img src="/images/implant.png" alt="Dental Implant" className="w-12 h-12 object-contain" />,
+    icon: <img src="/shrianand-website/images/implant.png" alt="Dental Implant" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Teeth Whitening",
     description: "Professional whitening services for a brighter, confident smile.",
-    icon: <img src="/images/teeth_whitening.png" alt="Teeth Whitening" className="w-12 h-12 object-contain" />,
+    icon: <img src="/shrianand-website/images/teeth_whitening.png" alt="Teeth Whitening" className="w-12 h-12 object-contain" />,
   },
   {
     title: "Orthodontics",
     description: "Braces and aligners to correct alignment and bite issues.",
-    icon: <img src="/images/aligner.png" alt="Orthodontics" className="w-12 h-12 object-contain" />,
+    icon: <img src="/shrianand-website/images/aligner.png" alt="Orthodontics" className="w-12 h-12 object-contain" />,
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Home() {
               >
                 <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
                   <img
-                    src="/images/hero-smile-indian-zoomed.png"
+                    src="/shrianand-website/images/hero-smile-indian-zoomed.png"
                     alt="Perfect Smile"
                     className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
                   />
