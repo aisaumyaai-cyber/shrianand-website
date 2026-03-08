@@ -65,9 +65,6 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="mb-4">
-                  <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
-                </div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold mb-6 text-[#090a01]">
                   <Award className="w-4 h-4" />
                   <span
