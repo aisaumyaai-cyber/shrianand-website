@@ -89,13 +89,13 @@ export default function About() {
         </div>
 
         {/* CTA */}
-        <div className="bg-slate-900 rounded-2xl p-8 md:p-12 text-center text-white">
-          <h2 className="text-3xl font-bold font-heading mb-4">Experience the Difference</h2>
-          <p className="text-slate-300 mb-8 max-w-2xl mx-auto">
+        <div className="bg-slate-50 rounded-2xl p-8 md:p-12 text-center border border-slate-100">
+          <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Experience the Difference</h2>
+          <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
             Schedule a consultation with Dr. Sanjai Sahai and take the first step towards a healthier smile.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+            <Button size="lg" className="w-full sm:w-auto">
               Book Appointment Now
             </Button>
           </Link>

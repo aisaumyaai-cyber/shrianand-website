@@ -61,7 +61,7 @@ export function Navbar() {
             </Link>
           ))}
           <a href="tel:+919971467879" className="w-full sm:w-auto">
-            <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover-elevate active-elevate-2 border border-primary-border min-h-9 px-4 py-2 w-full h-12 text-lg bg-[#26272d] shadow-lg hover:shadow-xl text-white hover:text-white">
+            <Button className="w-full h-12 text-lg">
               <Phone className="w-5 h-5 mr-2" />
               <span>+91 9971467879</span>
             </Button>
@@ -86,7 +86,7 @@ export function Navbar() {
                   </Link>
                 ))}
                 <a href="tel:+919971467879" className="w-full mt-4">
-                  <Button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-primary-border min-h-9 px-4 py-2 w-full h-12 text-lg bg-[#26272d] text-white hover:text-white">
+                  <Button className="w-full h-12 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
                     <span>+91 9971467879</span>
                   </Button>

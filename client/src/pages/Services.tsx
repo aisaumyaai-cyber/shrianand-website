@@ -128,7 +128,7 @@ export default function Services() {
           </div>
           <div className="md:w-1/3 flex justify-end">
             <Link href="/contact">
-              <Button size="lg" className="w-full md:w-auto bg-red-500 hover:bg-red-600 text-white border-none shadow-lg shadow-red-200">
+              <Button size="lg" className="w-full md:w-auto">
                 Emergency Contact
               </Button>
             </Link>
