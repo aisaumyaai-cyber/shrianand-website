@@ -173,7 +173,7 @@ export default function Home() {
         </div>
       </section>
       {/* REVIEWS */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-slate-50 pt-[40px] pb-[40px]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold font-heading mb-4 text-[#43444ae3]">Patient Stories</h2>
