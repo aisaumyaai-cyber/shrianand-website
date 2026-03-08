@@ -19,17 +19,15 @@ import Contact from "@/pages/Contact";
 
 function Router() {
   return (
-    <WouterRouter hook={useHashLocation}>
-      <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/services" component={Services} />
-        <Route path="/gallery" component={Gallery} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} />
-        <Route component={NotFound} />
-      </Switch>
-    </WouterRouter>
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/services" component={Services} />
+      <Route path="/gallery" component={Gallery} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/contact" component={Contact} />
+      <Route component={NotFound} />
+    </Switch>
   );
 }
 
@@ -37,13 +35,15 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <div className="min-h-screen flex flex-col font-sans">
-          <Navbar />
-          <main className="flex-grow">
-            <Router />
-          </main>
-          <Footer />
-        </div>
+        <WouterRouter hook={useHashLocation}>
+          <div className="min-h-screen flex flex-col font-sans">
+            <Navbar />
+            <main className="flex-grow">
+              <Router />
+            </main>
+            <Footer />
+          </div>
+        </WouterRouter>
         <Toaster />
       </TooltipProvider>
     </QueryClientProvider>
