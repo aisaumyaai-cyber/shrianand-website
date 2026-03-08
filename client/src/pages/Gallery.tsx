@@ -21,9 +21,6 @@ export default function Gallery() {
       <div className="container mx-auto px-4">
         {/* Transformations Section */}
         <div className="text-center mb-16">
-          <div className="mb-4">
-            <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#43444ae3]">Inside the Smile Transformation</h1>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">Real results from our precision dental care. Explore the transformations that redefine smiles.</p>
         </div>
