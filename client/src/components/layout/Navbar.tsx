@@ -40,7 +40,7 @@ export function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
-              <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">Dr. Sanjai Sahai </span>
+              <span className="font-medium uppercase tracking-wider text-[13px] bg-[#b2c62f59] text-left text-[#3e3e42]">Dr. Sanjai Sahai </span>
             </div>
           </a>
         </Link>
