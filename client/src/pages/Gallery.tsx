@@ -24,7 +24,7 @@ export default function Gallery() {
           <div className="mb-4">
             <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#2f3338]">Inside the Smile Transformation</h1>
+          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#43444ae3]">Inside the Smile Transformation</h1>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">Real results from our precision dental care. Explore the transformations that redefine smiles.</p>
         </div>
 
@@ -49,7 +49,7 @@ export default function Gallery() {
 
         {/* Clinical Excellence Section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold font-heading mb-4 text-[#2f3338]">Clinical Excellence</h2>
+          <h2 className="text-3xl font-bold font-heading mb-4 text-[#43444ae3]">Clinical Excellence</h2>
           <p className="text-slate-600 text-lg leading-relaxed">Advanced diagnostics and our patient-centric environment in Noida.</p>
         </div>
 

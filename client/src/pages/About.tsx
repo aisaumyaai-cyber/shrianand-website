@@ -11,7 +11,7 @@ export default function About() {
           <div className="mb-4">
             <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#2f3338]">
+          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#43444ae3]">
             About Dr. Sanjai Sahai
           </h1>
           <p className="text-lg text-slate-600 leading-relaxed">
@@ -67,7 +67,7 @@ export default function About() {
             </div>
 
             <div className="mt-12">
-              <h3 className="text-2xl font-bold font-heading mb-6 text-[#2f3338]">Our Mission</h3>
+              <h3 className="text-2xl font-bold font-heading mb-6 text-[#43444ae3]">Our Mission</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
                   <h4 className="font-bold text-lg mb-3 flex items-center gap-2">
@@ -90,7 +90,7 @@ export default function About() {
 
         {/* CTA */}
         <div className="bg-slate-50 rounded-2xl p-8 md:p-12 text-center border border-slate-100">
-          <h2 className="text-3xl font-bold font-heading mb-4 text-[#2f3338]">Experience the Difference</h2>
+          <h2 className="text-3xl font-bold font-heading mb-4 text-[#43444ae3]">Experience the Difference</h2>
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
             Schedule a consultation with Dr. Sanjai Sahai and take the first step towards a healthier smile.
           </p>

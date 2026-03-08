@@ -91,7 +91,7 @@ export default function Services() {
           <div className="mb-4">
             <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#2f3338]">
+          <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#43444ae3]">
             Our Dental Services
           </h1>
           <p className="text-lg text-slate-600">
@@ -103,7 +103,7 @@ export default function Services() {
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col hover:shadow-lg transition-all duration-300 border-slate-100">
               <CardHeader className="flex flex-col space-y-1.5 rounded-t-xl p-8 bg-[#b2c72e] text-[#1f2025] pt-[2px] pb-[2px] pl-[12px] pr-[12px] mt-[10px] mb-[10px] text-center">
-                <CardTitle className="tracking-tight font-bold text-[#2f3338] text-center pt-[0px] pb-[0px] text-[18px]">{service.title}</CardTitle>
+                <CardTitle className="tracking-tight font-bold text-[#43444ae3] text-center pt-[0px] pb-[0px] text-[18px]">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="mt-auto pt-0">
                 <div className="space-y-3 pl-[10px] pr-[10px] text-[18px] mt-[10px] mb-[10px] pt-[10px] pb-[10px]">
@@ -121,7 +121,7 @@ export default function Services() {
 
         <div className="mt-20 bg-blue-50 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-2/3">
-            <h3 className="text-2xl font-bold font-heading mb-2 text-[#2f3338]">Emergency Dental Care</h3>
+            <h3 className="text-2xl font-bold font-heading mb-2 text-[#43444ae3]">Emergency Dental Care</h3>
             <p className="text-slate-600">
               Experiencing severe tooth pain or a dental injury? We offer priority appointments for dental emergencies to get you out of pain fast.
             </p>
