@@ -58,9 +58,6 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="relative pt-24 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px]">
         <div className="container mx-auto px-4">
-          <div className="text-center w-full mb-8 lg:mb-12">
-            <span className="text-[#b2c72e] font-bold text-sm md:text-base tracking-[0.3em] uppercase">Smiling Point of Dentistry</span>
-          </div>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2 z-10">
               <motion.div
@@ -96,6 +93,12 @@ export default function Home() {
               </motion.div>
             </div>
             <div className="lg:w-1/2 relative">
+              <div className="text-center w-full mb-6 relative z-20 hidden lg:block">
+                <span className="text-[#b2c72e] font-bold text-sm tracking-[0.3em] uppercase bg-white/80 backdrop-blur-sm py-2 px-6 rounded-full shadow-sm inline-block">The Smiling Point of Dentistry</span>
+              </div>
+              <div className="text-center w-full mb-6 relative z-20 lg:hidden block">
+                <span className="text-[#b2c72e] font-bold text-sm tracking-[0.2em] uppercase bg-white/80 backdrop-blur-sm py-2 px-4 rounded-full shadow-sm inline-block">The Smiling Point of Dentistry</span>
+              </div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
