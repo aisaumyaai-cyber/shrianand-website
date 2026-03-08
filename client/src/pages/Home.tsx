@@ -58,6 +58,9 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="relative pt-24 pb-20 lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px]">
         <div className="container mx-auto px-4">
+          <div className="text-center w-full mb-8 lg:mb-12">
+            <span className="text-[#b2c72e] font-bold text-sm md:text-base tracking-[0.3em] uppercase">Smiling Point of Dentistry</span>
+          </div>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2 z-10">
               <motion.div
@@ -65,12 +68,9 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="inline-flex flex-col gap-1 mb-6">
-                  <span className="text-[#b2c72e] font-bold text-sm tracking-[0.2em] uppercase">Smiling Point of Dentistry</span>
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-fit">
-                    <Award className="w-4 h-4 shrink-0" />
-                    <span className="text-[#090a01a3] text-left">Ex. Head of Dental Department, Kailash Hospital<br />Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
-                  </div>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-fit mb-6">
+                  <Award className="w-4 h-4 shrink-0" />
+                  <span className="text-[#090a01a3] text-left">Ex. Head of Dental Department, Kailash Hospital<br />Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-[#43444ae3]">
                   Noida’s Most <span className="text-primary">Trusted</span><br />
