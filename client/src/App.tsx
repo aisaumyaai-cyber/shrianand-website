@@ -1,4 +1,5 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -13,14 +14,12 @@ import Gallery from "@/pages/Gallery";
 import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
 
-// Use the base path from Vite config
-const basePath = import.meta.env.BASE_URL;
-// wouter requires the base path to not have a trailing slash unless it's just '/'
-const base = basePath === '/' ? '' : basePath.replace(/\/$/, '');
+// For GitHub Pages, hash routing is the most reliable way to handle SPA routing
+// without server-side configuration
 
 function Router() {
   return (
-    <WouterRouter base={base}>
+    <WouterRouter hook={useHashLocation}>
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
