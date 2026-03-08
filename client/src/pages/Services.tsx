@@ -88,9 +88,6 @@ export default function Services() {
     <div className="pt-24 pb-20">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="mb-4">
-            <span className="text-primary font-bold text-lg tracking-wide uppercase italic">"Smiling Point of Dentistry"</span>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#43444ae3]">
             Our Dental Services
           </h1>
