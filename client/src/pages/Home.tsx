@@ -70,7 +70,7 @@ export default function Home() {
                   <span>Ex. Head of Dental Department, Kailash Hospital
                   Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
                 </div>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-slate-900">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-[#2f3338]">
                   Noida’s Most <span className="text-primary">Trusted</span><br />
                   Dental Expert
                 </h1>
@@ -131,7 +131,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4 text-slate-900">
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4 text-[#2f3338]">
               Comprehensive Dental Care
             </h2>
             <p className="text-slate-600 text-lg">
@@ -153,7 +153,7 @@ export default function Home() {
                     <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                       {service.icon}
                     </div>
-                    <h3 className="text-xl font-bold mb-3 text-slate-900">{service.title}</h3>
+                    <h3 className="text-xl font-bold mb-3 text-[#2f3338]">{service.title}</h3>
                     <p className="text-slate-500 mb-6 flex-grow">{service.description}</p>
                     <Link href="/services">
                       <a className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
@@ -171,7 +171,7 @@ export default function Home() {
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Patient Stories</h2>
+            <h2 className="text-3xl font-bold font-heading mb-4 text-[#2f3338]">Patient Stories</h2>
             <p className="text-slate-600">See what our patients say about their smiles.</p>
           </div>
           
@@ -186,7 +186,7 @@ export default function Home() {
                           {[...Array(t.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
                         </div>
                         <p className="text-slate-600 italic mb-6">"{t.text}"</p>
-                        <div className="font-bold text-slate-900">- {t.name}</div>
+                        <div className="font-bold text-[#2f3338]">- {t.name}</div>
                       </CardContent>
                     </Card>
                   </CarouselItem>
@@ -201,7 +201,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="bg-primary/5 rounded-3xl p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/10">
             <div>
-              <h2 className="text-3xl font-bold font-heading mb-4 text-slate-900">Ready for a Beautiful Healthy Smile?</h2>
+              <h2 className="text-3xl font-bold font-heading mb-4 text-[#2f3338]">Ready for a Beautiful Healthy Smile?</h2>
               <p className="text-slate-600 text-lg max-w-md">
                 Book your appointment today at our modern clinic in Noida.
               </p>

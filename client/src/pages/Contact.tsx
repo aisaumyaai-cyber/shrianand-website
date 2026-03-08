@@ -50,7 +50,7 @@ export default function Contact() {
           
           {/* Contact Info */}
           <div className="lg:w-1/2">
-            <h1 className="text-4xl font-bold font-heading mb-6 text-slate-900">Get in Touch</h1>
+            <h1 className="text-4xl font-bold font-heading mb-6 text-[#2f3338]">Get in Touch</h1>
             <p className="text-lg text-slate-600 mb-10">
               We are conveniently located near Kailash Hospital in Noida. Visit us for a consultation or book an appointment online.
             </p>
@@ -61,7 +61,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-slate-900 mb-1">Clinic Location</h3>
+                  <h3 className="font-bold text-lg text-[#2f3338] mb-1">Clinic Location</h3>
                   <p className="text-slate-600">
                     B-95 (BASEMENT) SECTOR-27,<br />
                     NEAR MOUNT LITERA SCHOOL, NOIDA<br />
@@ -75,7 +75,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-slate-900 mb-1">Phone & WhatsApp</h3>
+                  <h3 className="font-bold text-lg text-[#2f3338] mb-1">Phone & WhatsApp</h3>
                   <p className="text-slate-600">Call: +91 99714 67879</p>
                   <p className="text-slate-600">WhatsApp: +91 93106 68788</p>
                 </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg text-slate-900 mb-1">Clinic Hours</h3>
+                  <h3 className="font-bold text-lg text-[#2f3338] mb-1">Clinic Hours</h3>
                   <p className="text-slate-600">Tue - Sat : 11:30 AM - 7:30 PM</p>
                   <p className="text-slate-600">Sun : 11:30 AM - 4:30 PM</p>
                   <p className="text-red-500 font-medium">Monday Closed</p>

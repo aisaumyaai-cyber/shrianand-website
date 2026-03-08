@@ -31,7 +31,7 @@ export default function Blog() {
     <div className="pt-24 pb-20 bg-slate-50 min-h-screen">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold font-heading mb-4 text-slate-900">Dental Health Blog</h1>
+          <h1 className="text-4xl font-bold font-heading mb-4 text-[#2f3338]">Dental Health Blog</h1>
           <p className="text-slate-600">Expert advice, tips, and news for your oral health.</p>
         </div>
 
