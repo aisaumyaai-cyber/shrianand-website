@@ -120,7 +120,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-bold text-lg">4.7/5.0</p>
-                      <p className="text-xs text-slate-500">Based on 500+ Reviews</p>
+                      <p className="text-xs text-slate-500">Based on Reviews</p>
                     </div>
                   </div>
                   <p className="text-sm text-slate-600">"Best dental experience I've ever had!"</p>
