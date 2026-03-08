@@ -67,7 +67,8 @@ export default function Home() {
               >
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold mb-6 text-[#090a01]">
                   <Award className="w-4 h-4" />
-                  <span>Ex. Head of Dental Department, Kailash Hospital
+                  <span
+                    className="text-[#090a01a3] ml-[10px] mr-[10px] mt-[0px] mb-[0px] pt-[0px] pb-[0px] text-left">Ex. Head of Dental Department, Kailash Hospital  
                   Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-[#2f3338]">
