@@ -30,20 +30,20 @@ export default function Gallery() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-24">
            <BeforeAfter 
-             before="/images/gallery/whitening-before.jpg" 
-             after="/images/gallery/whitening-after.jpg" 
+             before="/shrianand-website/images/gallery/whitening-before.jpg" 
+             after="/shrianand-website/images/gallery/whitening-after.jpg" 
            />
            <BeforeAfter 
-             before="/images/gallery/braces-before.jpg" 
-             after="/images/gallery/braces-after.jpg" 
+             before="/shrianand-website/images/gallery/braces-before.jpg" 
+             after="/shrianand-website/images/gallery/braces-after.jpg" 
            />
            <BeforeAfter 
-             before="/images/gallery/dentures-before.jpg" 
-             after="/images/gallery/dentures-after.jpg" 
+             before="/shrianand-website/images/gallery/dentures-before.jpg" 
+             after="/shrianand-website/images/gallery/dentures-after.jpg" 
            />
            <BeforeAfter 
-             before="/images/gallery/patient-1.jpg" 
-             after="/images/gallery/patient-2.jpg" 
+             before="/shrianand-website/images/gallery/patient-1.jpg" 
+             after="/shrianand-website/images/gallery/patient-2.jpg" 
            />
         </div>
 
@@ -55,10 +55,10 @@ export default function Gallery() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { src: "/images/gallery/xray-1.jpg", label: "Digital Diagnostics" },
-            { src: "/images/gallery/clinic-1.jpg", label: "Modern Operatory" },
-            { src: "/images/gallery/clinic-2.jpg", label: "Advanced Sterilization" },
-            { src: "/images/gallery/whitening-after.jpg", label: "Precision Care" }
+            { src: "/shrianand-website/images/gallery/xray-1.jpg", label: "Digital Diagnostics" },
+            { src: "/shrianand-website/images/gallery/clinic-1.jpg", label: "Modern Operatory" },
+            { src: "/shrianand-website/images/gallery/clinic-2.jpg", label: "Advanced Sterilization" },
+            { src: "/shrianand-website/images/gallery/whitening-after.jpg", label: "Precision Care" }
           ].map((item, idx) => (
             <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg aspect-square bg-slate-200">
               <img src={item.src} alt={item.label} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
