@@ -202,7 +202,7 @@ export default function Home() {
         </div>
       </section>
       {/* CTA SECTION */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white pt-[0px] pb-[0px]">
         <div className="container mx-auto px-4">
           <div className="bg-primary/5 rounded-3xl p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-center justify-between gap-8 border border-primary/10">
             <div>
