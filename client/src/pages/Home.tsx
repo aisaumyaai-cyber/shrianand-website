@@ -105,11 +105,11 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative z-10"
               >
-                <div className="rounded-3xl shadow-2xl overflow-hidden w-full h-[500px] relative">
+                <div className="rounded-3xl shadow-2xl overflow-hidden w-full relative bg-white">
                   <img
                     src="/shrianand-website/images/dr-sanjai-sahai.jpeg"
                     alt="Dr. Sanjai Sahai"
-                    className="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-500"
+                    className="w-full h-auto object-contain hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>
                 {/* Floating Card */}
