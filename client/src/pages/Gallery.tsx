@@ -20,7 +20,7 @@ export default function Gallery() {
     <div className="pt-24 pb-20 bg-slate-50">
       <div className="container mx-auto px-4">
         {/* Transformations Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mt-[52px] mb-[52px]">
           <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-[#43444ae3]">Inside the Smile Transformation</h1>
           <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">Real results from our precision dental care. Explore the transformations that redefine smiles.</p>
         </div>
