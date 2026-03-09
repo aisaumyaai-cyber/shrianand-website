@@ -34,7 +34,7 @@ export function Footer() {
               <li><Link href="/services"><a className="hover:text-primary transition-colors">Services</a></Link></li>
               <li><Link href="/gallery"><a className="hover:text-primary transition-colors">Smile Gallery</a></Link></li>
               <li><Link href="/blog"><a className="hover:text-primary transition-colors">Dental Blog</a></Link></li>
-              <li><Link href="/contact"><a className="hover:text-primary transition-colors">Book Appointment</a></Link></li>
+              <li><a href="https://wa.me/919310668788" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Book Appointment</a></li>
             </ul>
           </div>
 

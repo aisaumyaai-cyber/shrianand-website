@@ -212,9 +212,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-              <Link href="/contact">
+              <a href="https://wa.me/919310668788" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
                 <Button size="lg" className="w-full sm:w-auto">Book Appointment</Button>
-              </Link>
+              </a>
               <Button size="lg" variant="outline" className="w-full sm:w-auto" onClick={() => window.open('tel:+919971467879', '_self')}>
                 <Phone className="w-4 h-4 mr-2" /> Call Now
               </Button>

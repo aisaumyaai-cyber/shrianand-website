@@ -91,11 +91,11 @@ export default function About() {
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
             Schedule a consultation with Dr. Sanjai Sahai and take the first step towards a healthier smile.
           </p>
-          <Link href="/contact">
+          <a href="https://wa.me/919310668788" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
             <Button size="lg" className="w-full sm:w-auto">
               Book Appointment Now
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
     </div>
