@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 export default function About() {
   return (
     <div className="pt-24 pb-20">
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 mt-[40px] mb-[40px]">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-[#43444ae3]">
