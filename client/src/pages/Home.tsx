@@ -103,13 +103,13 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="relative z-10"
+                className="relative z-10 mx-auto max-w-md lg:mt-12"
               >
-                <div className="rounded-3xl shadow-2xl overflow-hidden w-full relative bg-white">
+                <div className="rounded-3xl shadow-2xl overflow-hidden w-full relative bg-white aspect-[3/4]">
                   <img
                     src="/shrianand-website/images/dr-sanjai-sahai.jpeg"
                     alt="Dr. Sanjai Sahai"
-                    className="w-full h-auto object-contain hover:scale-[1.02] transition-transform duration-500"
+                    className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>
                 {/* Floating Card */}
