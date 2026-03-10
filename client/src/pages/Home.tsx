@@ -58,7 +58,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="relative lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px] mt-[80px] mb-[80px] pt-[50px] pb-[50px]">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
             <div className="lg:w-1/2 z-10">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
