@@ -66,9 +66,9 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="text-left md:ml-[20px] md:mr-[20px] lg:ml-[60px] lg:mr-[60px] xl:ml-[120px] xl:mr-[120px] mt-[0px] mb-[0px] pt-[0px] pb-[0px]">
-                <div className="flex items-start sm:items-center gap-3 px-5 py-3 rounded-2xl bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-fit mb-6">
+                <div className="flex items-start sm:items-center gap-3 px-5 py-3 rounded-2xl bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-full sm:w-fit mb-6">
                   <Award className="w-5 h-5 shrink-0 mt-0.5 sm:mt-0 text-[#728517]" />
-                  <span className="text-[#090a01a3] text-left leading-snug">Ex. Head of Dental Department, Kailash Hospital<br className="hidden sm:block" />Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
+                  <span className="text-[#090a01a3] text-left leading-snug">Ex. Head of Dental Department, Kailash Hospital<br className="hidden sm:block" /> <span className="inline sm:hidden">|</span> Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6 text-[#43444ae3]">
                   Noida’s Most <span className="text-primary">Trusted</span><br />
