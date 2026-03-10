@@ -64,7 +64,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-              >
+                className="text-left ml-[120px] mr-[120px] pl-[0px] pr-[0px] mt-[0px] mb-[0px] pt-[0px] pb-[0px]">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#b2c72e]/20 text-sm font-semibold text-[#090a01] w-fit mb-6">
                   <Award className="w-4 h-4 shrink-0" />
                   <span className="text-[#090a01a3] text-left">Ex. Head of Dental Department, Kailash Hospital<br />Formerly LNJP Hospital & G.B. Pant Hospital New Delhi</span>
