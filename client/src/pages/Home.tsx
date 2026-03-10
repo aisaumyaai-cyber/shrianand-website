@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
               </motion.div>
             </div>
-            <div className="lg:w-[45%] xl:w-[40%] relative">
+            <div className="lg:w-[45%] xl:w-[40%] relative ml-[50px] mr-[50px]">
               <div className="text-center w-full mb-6 relative z-20 hidden lg:block">
                 <span className="text-sm tracking-[0.3em] uppercase backdrop-blur-sm py-2 px-6 rounded-full shadow-sm inline-block text-[#728517] bg-[#f2f0f09c] font-extrabold">The Smiling Point of Dentistry</span>
               </div>
