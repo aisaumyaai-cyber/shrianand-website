@@ -29,11 +29,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              <li><Link href="/"><a className="hover:text-primary transition-colors">Home</a></Link></li>
-              <li><Link href="/about"><a className="hover:text-primary transition-colors">About Us</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Services</a></Link></li>
-              <li><Link href="/gallery"><a className="hover:text-primary transition-colors">Smile Gallery</a></Link></li>
-              <li><Link href="/blog"><a className="hover:text-primary transition-colors">Dental Blog</a></Link></li>
+              <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
+              <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Services</Link></li>
+              <li><Link href="/gallery" className="hover:text-primary transition-colors">Smile Gallery</Link></li>
+              <li><Link href="/blog" className="hover:text-primary transition-colors">Dental Blog</Link></li>
               <li><a href="https://wa.me/919310668788" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Book Appointment</a></li>
             </ul>
           </div>
@@ -42,11 +42,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Our Services</h4>
             <ul className="space-y-3">
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Root Canal Treatment</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Dental Implants</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Cosmetic Dentistry</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Teeth Whitening</a></Link></li>
-              <li><Link href="/services"><a className="hover:text-primary transition-colors">Orthodontics</a></Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Root Canal Treatment</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Dental Implants</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Cosmetic Dentistry</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Teeth Whitening</Link></li>
+              <li><Link href="/services" className="hover:text-primary transition-colors">Orthodontics</Link></li>
             </ul>
           </div>
 

@@ -34,36 +34,34 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link href="/">
-          <a className="flex items-center gap-2 group">
-            <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-md group-hover:scale-105 transition-transform shrink-0">
-              <img 
-                src="/shrianand-website/images/logo/logo-512.png" 
-                alt="Shri Anand Bright Dental Clinic Logo" 
-                className="w-full h-full object-cover scale-[1.45]" 
-                style={{ imageRendering: '-webkit-optimize-contrast' }}
-              />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
-              <span className="font-medium uppercase tracking-wider text-[13px] bg-[#b2c62f59] text-left text-[#3e3e42]">Dr. Sanjai Sahai </span>
-            </div>
-          </a>
+        <Link href="/" className="flex items-center gap-2 group">
+          <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-md group-hover:scale-105 transition-transform shrink-0">
+            <img 
+              src="/shrianand-website/images/logo/logo-512.png" 
+              alt="Shri Anand Bright Dental Clinic Logo" 
+              className="w-full h-full object-cover scale-[1.45]" 
+              style={{ imageRendering: '-webkit-optimize-contrast' }}
+            />
+          </div>
+          <div className="flex flex-col">
+            <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
+            <span className="font-medium uppercase tracking-wider text-[13px] bg-[#b2c62f59] text-left text-[#3e3e42]">Dr. Sanjai Sahai </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
-            <Link key={link.name} href={link.href}>
-              <a
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  location === link.href
-                    ? "text-primary font-semibold"
-                    : "text-muted-foreground"
-                }`}
-              >
-                {link.name}
-              </a>
+            <Link 
+              key={link.name} 
+              href={link.href}
+              className={`text-sm font-medium transition-colors hover:text-primary ${
+                location === link.href
+                  ? "text-primary font-semibold"
+                  : "text-muted-foreground"
+              }`}
+            >
+              {link.name}
             </Link>
           ))}
           <a href="tel:+919971467879" className="w-full sm:w-auto">
@@ -85,13 +83,13 @@ export function Navbar() {
             <SheetContent>
               <div className="flex flex-col gap-6 mt-10">
                 {links.map((link) => (
-                  <Link key={link.name} href={link.href}>
-                    <a 
-                      className="text-lg font-medium py-2 border-b border-border/50"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {link.name}
-                    </a>
+                  <Link 
+                    key={link.name} 
+                    href={link.href}
+                    className="text-lg font-medium py-2 border-b border-border/50"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.name}
                   </Link>
                 ))}
                 <a href="tel:+919971467879" className="w-full mt-4" onClick={() => setIsOpen(false)}>

@@ -162,10 +162,8 @@ export default function Home() {
                     </div>
                     <h3 className="text-xl font-bold mb-3 text-[#43444ae3]">{service.title}</h3>
                     <p className="text-slate-500 mb-6 flex-grow">{service.description}</p>
-                    <Link href="/services">
-                      <a className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                        Learn More <ArrowRight className="w-4 h-4" />
-                      </a>
+                    <Link href="/services" className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                      Learn More <ArrowRight className="w-4 h-4" />
                     </Link>
                   </CardContent>
                 </Card>
