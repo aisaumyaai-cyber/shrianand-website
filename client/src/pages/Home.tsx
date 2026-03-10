@@ -58,8 +58,8 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="relative lg:pt-32 lg:pb-32 overflow-hidden bg-gradient-to-br from-blue-50 to-white ml-[10px] mr-[10px] mt-[80px] mb-[80px] pt-[50px] pb-[50px]">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
-            <div className="lg:w-1/2 z-10">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-4 xl:gap-0">
+            <div className="lg:w-[55%] xl:w-[60%] z-10">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
               </motion.div>
             </div>
-            <div className="lg:w-1/2 relative">
+            <div className="lg:w-[45%] xl:w-[40%] relative">
               <div className="text-center w-full mb-6 relative z-20 hidden lg:block">
                 <span className="text-sm tracking-[0.3em] uppercase backdrop-blur-sm py-2 px-6 rounded-full shadow-sm inline-block text-[#728517] bg-[#f2f0f09c] font-extrabold">The Smiling Point of Dentistry</span>
               </div>
