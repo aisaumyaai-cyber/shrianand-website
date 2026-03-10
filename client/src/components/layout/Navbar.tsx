@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [location] = useLocation();
 
   useEffect(() => {
@@ -75,7 +76,7 @@ export function Navbar() {
 
         {/* Mobile Nav */}
         <div className="md:hidden">
-          <Sheet>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="w-6 h-6" />
@@ -85,12 +86,15 @@ export function Navbar() {
               <div className="flex flex-col gap-6 mt-10">
                 {links.map((link) => (
                   <Link key={link.name} href={link.href}>
-                    <a className="text-lg font-medium py-2 border-b border-border/50">
+                    <a 
+                      className="text-lg font-medium py-2 border-b border-border/50"
+                      onClick={() => setIsOpen(false)}
+                    >
                       {link.name}
                     </a>
                   </Link>
                 ))}
-                <a href="tel:+919971467879" className="w-full mt-4">
+                <a href="tel:+919971467879" className="w-full mt-4" onClick={() => setIsOpen(false)}>
                   <Button className="w-full h-12 text-lg">
                     <Phone className="w-5 h-5 mr-2" />
                     <span>+91 9971467879</span>
