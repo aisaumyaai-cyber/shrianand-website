@@ -62,11 +62,16 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-bold text-lg text-[#43444ae3] mb-1">Clinic Location</h3>
-                  <p className="text-slate-600">
+                  <a 
+                    href="https://maps.app.goo.gl/rY1dGzH3nZfF4j6T7" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-slate-600 hover:text-primary transition-colors block"
+                  >
                     B-95 (BASEMENT) SECTOR-27,<br />
                     NEAR MOUNT LITERA SCHOOL, NOIDA<br />
                     Uttar Pradesh 201301
-                  </p>
+                  </a>
                 </div>
               </div>
 

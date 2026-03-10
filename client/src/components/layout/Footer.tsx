@@ -56,7 +56,14 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
-                <span>B-95 (BASEMENT) SECTOR-27,<br />NEAR MOUNT LITERA SCHOOL, NOIDA</span>
+                <a 
+                  href="https://maps.app.goo.gl/rY1dGzH3nZfF4j6T7" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors cursor-pointer"
+                >
+                  B-95 (BASEMENT) SECTOR-27,<br />NEAR MOUNT LITERA SCHOOL, NOIDA
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
