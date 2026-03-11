@@ -20,11 +20,16 @@ export default function About() {
         <div className="flex flex-col lg:flex-row gap-12 items-start mb-20">
           <div className="lg:w-1/3">
             <div className="sticky top-24">
-              <img 
-                src="/images/dr-sanjai-sahai-about.jpeg" 
-                alt="Dr. Sanjai Sahai" 
-                className="w-full aspect-[3/4] object-cover rounded-2xl shadow-xl hover:scale-[1.02] transition-all duration-500" 
-              />
+              <div className="relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-slate-100 shadow-xl">
+                <div className="absolute inset-0 bg-slate-200 animate-pulse"></div>
+                <img 
+                  src="/images/dr-sanjai-sahai-about.jpeg" 
+                  alt="Dr. Sanjai Sahai" 
+                  loading="lazy" 
+                  decoding="async"
+                  className="w-full h-full object-cover hover:scale-[1.02] transition-all duration-500 relative z-10" 
+                />
+              </div>
               <div className="mt-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
                 <h3 className="font-bold text-xl mb-2">Qualifications</h3>
                 <ul className="space-y-2 text-slate-600">

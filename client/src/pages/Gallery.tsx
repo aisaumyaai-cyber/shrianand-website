@@ -5,10 +5,10 @@ const BeforeAfter = ({ before, after }: { before: string; after: string }) => {
     <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden group shadow-lg border border-slate-100 bg-white">
       <div className="flex w-full h-full">
         <div className="relative w-1/2 h-full border-r-2 border-white">
-          <img src={before} alt="Before" className="w-full h-full object-cover" />
+          <img src={before} alt="Before" loading="lazy" decoding="async" className="w-full h-full object-cover" />
         </div>
         <div className="relative w-1/2 h-full">
-          <img src={after} alt="After" className="w-full h-full object-cover" />
+          <img src={after} alt="After" loading="lazy" decoding="async" className="w-full h-full object-cover" />
         </div>
       </div>
     </div>
@@ -58,8 +58,9 @@ export default function Gallery() {
             { src: "/images/gallery/whitening-after.jpg", label: "Precision Care" }
           ].map((item, idx) => (
             <div key={idx} className="group relative overflow-hidden rounded-2xl shadow-lg aspect-square bg-slate-200">
-              <img src={item.src} alt={item.label} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <div className="absolute inset-0 bg-slate-100 animate-pulse"></div>
+              <img src={item.src} alt={item.label} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 relative z-10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-20">
                 <span className="text-white font-bold text-lg leading-tight">{item.label}</span>
               </div>
             </div>
