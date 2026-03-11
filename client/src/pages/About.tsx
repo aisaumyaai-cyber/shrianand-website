@@ -21,7 +21,7 @@ export default function About() {
           <div className="lg:w-1/3">
             <div className="sticky top-24">
               <img 
-                src="/shrianand-website/images/dr-sanjai-sahai-about.jpeg" 
+                src="/images/dr-sanjai-sahai-about.jpeg" 
                 alt="Dr. Sanjai Sahai" 
                 className="w-full aspect-[3/4] object-cover rounded-2xl shadow-xl hover:scale-[1.02] transition-all duration-500" 
               />
