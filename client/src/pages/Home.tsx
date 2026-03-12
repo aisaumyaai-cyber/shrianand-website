@@ -159,18 +159,20 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full hover:shadow-lg transition-all border-slate-100 group">
-                  <CardContent className="p-8 flex flex-col items-center text-center h-full">
-                    <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                      {service.icon}
-                    </div>
-                    <h3 className="text-xl font-bold mb-3 text-[#43444ae3]">{service.title}</h3>
-                    <p className="text-slate-500 mb-6 flex-grow">{service.description}</p>
-                    <Link href="/services" className="text-primary font-semibold flex items-center gap-2 hover:gap-3 transition-all">
-                      Learn More <ArrowRight className="w-4 h-4" />
-                    </Link>
-                  </CardContent>
-                </Card>
+                <Link href="/services" className="block h-full cursor-pointer">
+                  <Card className="h-full hover:shadow-lg transition-all border-slate-100 group">
+                    <CardContent className="p-8 flex flex-col items-center text-center h-full">
+                      <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
+                        {service.icon}
+                      </div>
+                      <h3 className="text-xl font-bold mb-3 text-[#43444ae3]">{service.title}</h3>
+                      <p className="text-slate-500 mb-6 flex-grow">{service.description}</p>
+                      <div className="text-primary font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn More <ArrowRight className="w-4 h-4" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               </motion.div>
             ))}
           </div>
