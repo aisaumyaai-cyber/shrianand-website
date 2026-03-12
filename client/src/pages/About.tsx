@@ -1,8 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { CheckCircle2 } from "lucide-react";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="pt-24 pb-20">
       <section className="container mx-auto px-4 mt-[40px] mb-[40px]">

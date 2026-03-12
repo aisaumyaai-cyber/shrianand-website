@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useEffect } from "react";
 
 const BeforeAfter = ({ before, after }: { before: string; after: string }) => {
   return (
@@ -16,6 +17,10 @@ const BeforeAfter = ({ before, after }: { before: string; after: string }) => {
 };
 
 export default function Gallery() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="pt-24 pb-20 bg-slate-50">
       <div className="container mx-auto px-4">

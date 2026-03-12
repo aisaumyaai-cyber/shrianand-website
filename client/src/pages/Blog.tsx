@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, User } from "lucide-react";
+import { useEffect } from "react";
 
 const posts = [
   {
@@ -27,6 +28,10 @@ const posts = [
 ];
 
 export default function Blog() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="pt-24 pb-20 bg-slate-50 min-h-screen">
       <div className="container mx-auto px-4">

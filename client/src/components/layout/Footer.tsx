@@ -29,11 +29,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
-              <li><Link href="/about" className="hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Services</Link></li>
-              <li><Link href="/gallery" className="hover:text-primary transition-colors">Smile Gallery</Link></li>
-              <li><Link href="/blog" className="hover:text-primary transition-colors">Dental Blog</Link></li>
+              <li><Link href="/" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Home</Link></li>
+              <li><Link href="/about" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">About Us</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Services</Link></li>
+              <li><Link href="/gallery" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Smile Gallery</Link></li>
+              <li><Link href="/blog" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Dental Blog</Link></li>
               <li><a href="https://wa.me/919310668788" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Book Appointment</a></li>
             </ul>
           </div>
