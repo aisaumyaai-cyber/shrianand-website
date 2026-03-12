@@ -60,9 +60,14 @@ export function Footer() {
                   href="https://maps.app.goo.gl/yBsXrbShbvcpRPxX7" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors cursor-pointer"
+                  className="group cursor-pointer flex flex-col"
                 >
-                  B-95 (BASEMENT) SECTOR-27,<br />NEAR MOUNT LITERA SCHOOL, NOIDA
+                  <span className="group-hover:text-primary transition-colors">
+                    B-95 (BASEMENT) SECTOR-27,<br />NEAR MOUNT LITERA SCHOOL, NOIDA
+                  </span>
+                  <span className="text-xs text-primary/80 mt-1 font-medium group-hover:text-primary transition-colors">
+                    Click for Google Maps location
+                  </span>
                 </a>
               </li>
               <li>
