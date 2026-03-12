@@ -35,21 +35,16 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-md group-hover:scale-105 transition-transform shrink-0 relative">
-            <div className="absolute inset-0 bg-slate-100 animate-pulse"></div>
+          <div className="w-auto h-12 md:h-16 flex items-center justify-center group-hover:scale-[1.02] transition-transform shrink-0 relative">
+            <div className="absolute inset-0 bg-slate-50/50 animate-pulse rounded"></div>
             <img 
-              src="/images/logo/logo-512.png" 
+              src="/images/clinic-logo.png" 
               alt="Shri Anand Bright Dental Clinic Logo" 
               loading="eager"
               fetchPriority="high"
               decoding="sync"
-              className="w-full h-full object-cover scale-[1.45] relative z-10" 
-              style={{ imageRendering: '-webkit-optimize-contrast' }}
+              className="w-auto h-full object-contain relative z-10" 
             />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-heading font-bold text-xl leading-none text-foreground">Shri Anand Bright Dental Clinic</span>
-            <span className="font-medium uppercase tracking-wider text-[13px] bg-[#b2c62f59] text-left text-[#3e3e42]">Dr. Sanjai Sahai </span>
           </div>
         </Link>
 
