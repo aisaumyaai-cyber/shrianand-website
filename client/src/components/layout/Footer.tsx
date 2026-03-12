@@ -42,11 +42,11 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Our Services</h4>
             <ul className="space-y-3">
-              <li><Link href="/services" className="hover:text-primary transition-colors">Root Canal Treatment</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Dental Implants</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Cosmetic Dentistry</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Teeth Whitening</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Orthodontics</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Root Canal Treatment</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Dental Implants</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Cosmetic Dentistry</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Teeth Whitening</Link></li>
+              <li><Link href="/services" onClick={() => window.scrollTo(0, 0)} className="hover:text-primary transition-colors">Orthodontics</Link></li>
             </ul>
           </div>
 

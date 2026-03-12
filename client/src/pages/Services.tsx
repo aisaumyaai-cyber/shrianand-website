@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { Check, Stethoscope, Microscope, Sparkles, Activity, Wand2, ShieldPlus } from "lucide-react";
+import { useEffect } from "react";
 
 const services = [
   {
@@ -84,6 +85,10 @@ const services = [
 ];
 
 export default function Services() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="pt-24 pb-20">
       <div className="container mx-auto px-4 mt-[40px] mb-[40px]">
